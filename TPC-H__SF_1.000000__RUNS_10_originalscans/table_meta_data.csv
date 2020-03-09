@@ -1,0 +1,9 @@
+table_name|column_count|row_count|chunk_count|max_chunk_size
+"customer"|8|150000|2|100000
+"lineitem"|16|6001215|61|100000
+"nation"|4|25|1|100000
+"orders"|9|1500000|15|100000
+"part"|9|200000|2|100000
+"partsupp"|5|800000|8|100000
+"region"|3|5|1|100000
+"supplier"|7|10000|1|100000
