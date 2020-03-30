@@ -1,0 +1,437 @@
+QUERY_HASH|COLUMN_TYPE|TABLE_NAME|COLUMN_NAME|INPUT_ROWS|OUTPUT_ROWS|RUNTIME_NS|DESCRIPTION|SINGLE_INPUT_ROWS|SINGLE_OUTPUT_ROWS|SINGLE_RUNTIME_NS
+"bac00c0bdbf62ea"|"REFERENCE"|"customer"|"c_phone"|68045|19042|12777020|"TableScan Impl: ExpressionEvaluator (SUBSTR(c_phone,1,2)) IN ('24', '28', '26', '21', '20', '11', '27')"|150000|41912|41859246
+"2687bf4da454552b"|"REFERENCE"|"customer"|"c_phone"|68036|18961|12807472|"TableScan Impl: ExpressionEvaluator (SUBSTR(c_phone,1,2)) IN ('25', '10', '34', '27', '28', '14', '18')"|150000|41865|30463426
+"2bd757c748d34189"|"REFERENCE"|"customer"|"c_phone"|67946|19133|13261399|"TableScan Impl: ExpressionEvaluator (SUBSTR(c_phone,1,2)) IN ('14', '31', '21', '32', '25', '34', '28')"|150000|41972|29959698
+"7ce8aa4cc8eabfd8"|"REFERENCE"|"customer"|"c_phone"|68204|18942|13253717|"TableScan Impl: ExpressionEvaluator (SUBSTR(c_phone,1,2)) IN ('25', '20', '11', '30', '33', '22', '23')"|150000|41801|30215334
+"3bf533ddc6f54ed4"|"REFERENCE"|"customer"|"c_phone"|67817|19151|12733855|"TableScan Impl: ExpressionEvaluator (SUBSTR(c_phone,1,2)) IN ('34', '14', '18', '23', '26', '17', '19')"|150000|42096|30085490
+"74335a369db42f54"|"REFERENCE"|"customer"|"c_phone"|68049|19164|12825492|"TableScan Impl: ExpressionEvaluator (SUBSTR(c_phone,1,2)) IN ('24', '31', '32', '14', '28', '33', '11')"|150000|42083|29837329
+"aeebd3c094273d3e"|"REFERENCE"|"customer"|"c_phone"|68034|19072|12820813|"TableScan Impl: ExpressionEvaluator (SUBSTR(c_phone,1,2)) IN ('11', '27', '31', '18', '16', '13', '19')"|150000|42281|29586792
+"6730c267d3eac48a"|"DATA"|"orders"|"o_orderstatus"|1500000|729413|8364864|"TableScan Impl: ColumnVsValue o_orderstatus = 'F'"|1500000|729413|10172682
+"6730c267d3eac48a"|"DATA"|"nation"|"n_name"|25|1|13411|"TableScan Impl: ColumnVsValue n_name = 'IRAN'"|25|1|16623
+"6ec3126b032024be"|"DATA"|"orders"|"o_orderstatus"|1500000|729413|8210994|"TableScan Impl: ColumnVsValue o_orderstatus = 'F'"|1500000|729413|9171234
+"6ec3126b032024be"|"DATA"|"nation"|"n_name"|25|1|13271|"TableScan Impl: ColumnVsValue n_name = 'VIETNAM'"|25|1|15296
+"7324393c05ab5301"|"DATA"|"orders"|"o_orderstatus"|1500000|729413|8179494|"TableScan Impl: ColumnVsValue o_orderstatus = 'F'"|1500000|729413|9115287
+"7324393c05ab5301"|"DATA"|"nation"|"n_name"|25|1|14109|"TableScan Impl: ColumnVsValue n_name = 'KENYA'"|25|1|14458
+"37e2ba0a1c4e865f"|"DATA"|"orders"|"o_orderstatus"|1500000|729413|8236348|"TableScan Impl: ColumnVsValue o_orderstatus = 'F'"|1500000|729413|9098455
+"37e2ba0a1c4e865f"|"DATA"|"nation"|"n_name"|25|1|13271|"TableScan Impl: ColumnVsValue n_name = 'EGYPT'"|25|1|14528
+"a17cb368eadced8f"|"DATA"|"orders"|"o_orderstatus"|1500000|729413|8533123|"TableScan Impl: ColumnVsValue o_orderstatus = 'F'"|1500000|729413|9112772
+"a17cb368eadced8f"|"DATA"|"nation"|"n_name"|25|1|13899|"TableScan Impl: ColumnVsValue n_name = 'ETHIOPIA'"|25|1|14598
+"bfb403aee0d212a"|"DATA"|"orders"|"o_orderstatus"|1500000|729413|8391895|"TableScan Impl: ColumnVsValue o_orderstatus = 'F'"|1500000|729413|9085813
+"bfb403aee0d212a"|"DATA"|"nation"|"n_name"|25|1|13061|"TableScan Impl: ColumnVsValue n_name = 'CANADA'"|25|1|14528
+"98aa70b345defa5b"|"DATA"|"part"|"p_name"|200000|2233|380729|"TableScan Impl: ColumnBetween p_name BETWEEN UPPER EXCLUSIVE 'chiffon' AND 'chiffoo'"|200000|2233|427037
+"445e33c234f835dc"|"DATA"|"part"|"p_name"|200000|2190|453787|"TableScan Impl: ColumnBetween p_name BETWEEN UPPER EXCLUSIVE 'beige' AND 'beigf'"|200000|2190|329951
+"ec4f5aa44b3ce5b2"|"DATA"|"orders"|"o_orderdate"|1500000|57311|3291410|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1994-05-01' AND '1994-08-01'"|1500000|57311|3703361
+"b6e90b19f6849df0"|"DATA"|"region"|"r_name"|5|1|16763|"TableScan Impl: ColumnVsValue r_name = 'AFRICA'"|5|1|14528
+"b6e90b19f6849df0"|"DATA"|"part"|"p_type"|200000|1312|237685|"TableScan Impl: ColumnVsValue p_type = 'STANDARD BRUSHED BRASS'"|200000|1312|262271
+"39db4fdfc7ced3a8"|"DATA"|"orders"|"o_orderdate"|1500000|57683|3029559|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1994-11-01' AND '1995-02-01'"|1500000|57683|2882673
+"2339c1c426815457"|"DATA"|"part"|"p_name"|200000|2255|364804|"TableScan Impl: ColumnBetween p_name BETWEEN UPPER EXCLUSIVE 'navajo' AND 'navajp'"|200000|2255|457769
+"7892b628f929217a"|"DATA"|"part"|"p_name"|200000|10907|24055080|"TableScan Impl: ColumnLike p_name LIKE '%lace%'"|200000|10907|26010132
+"5ae3617d2dec126b"|"DATA"|"orders"|"o_orderdate"|1500000|56934|3032911|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1993-03-01' AND '1993-06-01'"|1500000|56934|3085295
+"eb783ae587a58416"|"DATA"|"part"|"p_name"|200000|10876|22168617|"TableScan Impl: ColumnLike p_name LIKE '%beige%'"|200000|10876|16258550
+"5555d4bceea41a30"|"DATA"|"part"|"p_name"|200000|10947|21256920|"TableScan Impl: ColumnLike p_name LIKE '%saddle%'"|200000|10947|14097802
+"2b3b48f5f8c63576"|"DATA"|"region"|"r_name"|5|1|24236|"TableScan Impl: ColumnVsValue r_name = 'EUROPE'"|5|1|17182
+"2b3b48f5f8c63576"|"DATA"|"part"|"p_type"|200000|1350|326179|"TableScan Impl: ColumnVsValue p_type = 'PROMO PLATED BRASS'"|200000|1350|236079
+"e4f956c780ffb22a"|"DATA"|"region"|"r_name"|5|1|25913|"TableScan Impl: ColumnVsValue r_name = 'AMERICA'"|5|1|13899
+"e4f956c780ffb22a"|"DATA"|"part"|"p_type"|200000|1327|238104|"TableScan Impl: ColumnVsValue p_type = 'SMALL BURNISHED STEEL'"|200000|1327|223158
+"9762c3a887e47469"|"DATA"|"lineitem"|"l_shipdate"|6001215|77313|11811123|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1993-12-01' AND '1994-01-01'"|6001215|77313|11878035
+"e7bb22c68d9903fa"|"REFERENCE"|"part"|"p_size"|820|82|38416|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 5"|200000|20271|653477
+"e7bb22c68d9903fa"|"REFERENCE"|"part"|"p_container"|7968|820|932859|"TableScan Impl: ExpressionEvaluator (p_container) IN ('SM CASE', 'SM BOX', 'SM PACK', 'SM PKG')"|200000|19906|23878790
+"e7bb22c68d9903fa"|"REFERENCE"|"part"|"p_brand"|200000|7968|533272|"TableScan Impl: ColumnVsValue p_brand = 'Brand#31'"|200000|7968|396724
+"e7bb22c68d9903fa"|"REFERENCE"|"part"|"p_size"|789|170|36739|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 10"|200000|40474|909951
+"e7bb22c68d9903fa"|"REFERENCE"|"part"|"p_container"|7975|789|848975|"TableScan Impl: ExpressionEvaluator (p_container) IN ('MED BAG', 'MED BOX', 'MED PKG', 'MED PACK')"|200000|19986|22943974
+"e7bb22c68d9903fa"|"REFERENCE"|"part"|"p_brand"|200000|7975|504287|"TableScan Impl: ColumnVsValue p_brand = 'Brand#24'"|200000|7975|345178
+"e7bb22c68d9903fa"|"REFERENCE"|"part"|"p_size"|791|227|38624|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 15"|200000|60513|1187727
+"e7bb22c68d9903fa"|"REFERENCE"|"part"|"p_container"|7822|791|874957|"TableScan Impl: ExpressionEvaluator (p_container) IN ('LG CASE', 'LG BOX', 'LG PACK', 'LG PKG')"|200000|20080|22448349
+"e7bb22c68d9903fa"|"REFERENCE"|"part"|"p_brand"|200000|7822|496673|"TableScan Impl: ColumnVsValue p_brand = 'Brand#25'"|200000|7822|342034
+"2fa6737db8f52313"|"REFERENCE"|"customer"|"c_phone"|67995|19019|13338160|"TableScan Impl: ExpressionEvaluator (SUBSTR(c_phone,1,2)) IN ('20', '23', '15', '21', '31', '30', '24')"|150000|41861|40740317
+"68f8842939305c8e"|"DATA"|"part"|"p_name"|200000|10960|20839452|"TableScan Impl: ColumnLike p_name LIKE '%sienna%'"|200000|10960|21764000
+"19ae7b7a1d3226b"|"DATA"|"orders"|"o_orderdate"|1500000|57337|2982064|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1995-10-01' AND '1996-01-01'"|1500000|57337|3481181
+"7074e6b7f9e896be"|"DATA"|"region"|"r_name"|5|1|23748|"TableScan Impl: ColumnVsValue r_name = 'EUROPE'"|5|1|19138
+"7074e6b7f9e896be"|"DATA"|"part"|"p_type"|200000|1331|235240|"TableScan Impl: ColumnVsValue p_type = 'ECONOMY POLISHED COPPER'"|200000|1331|267719
+"56c6c72d3f4c9d0f"|"DATA"|"part"|"p_name"|200000|10868|20553714|"TableScan Impl: ColumnLike p_name LIKE '%bisque%'"|200000|10868|14646720
+"73b23b8a1b9c71cd"|"REFERENCE"|"part"|"p_size"|778|84|37787|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 5"|200000|20271|619951
+"73b23b8a1b9c71cd"|"REFERENCE"|"part"|"p_container"|7938|778|953465|"TableScan Impl: ExpressionEvaluator (p_container) IN ('SM CASE', 'SM BOX', 'SM PACK', 'SM PKG')"|200000|19906|23686225
+"73b23b8a1b9c71cd"|"REFERENCE"|"part"|"p_brand"|200000|7938|524751|"TableScan Impl: ColumnVsValue p_brand = 'Brand#54'"|200000|7938|368995
+"73b23b8a1b9c71cd"|"REFERENCE"|"part"|"p_size"|789|170|36249|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 10"|200000|40474|897936
+"73b23b8a1b9c71cd"|"REFERENCE"|"part"|"p_container"|7975|789|856518|"TableScan Impl: ExpressionEvaluator (p_container) IN ('MED BAG', 'MED BOX', 'MED PKG', 'MED PACK')"|200000|19986|23024786
+"73b23b8a1b9c71cd"|"REFERENCE"|"part"|"p_brand"|200000|7975|498069|"TableScan Impl: ColumnVsValue p_brand = 'Brand#24'"|200000|7975|346784
+"73b23b8a1b9c71cd"|"REFERENCE"|"part"|"p_size"|792|236|37927|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 15"|200000|60513|1209798
+"73b23b8a1b9c71cd"|"REFERENCE"|"part"|"p_container"|7978|792|821316|"TableScan Impl: ExpressionEvaluator (p_container) IN ('LG CASE', 'LG BOX', 'LG PACK', 'LG PKG')"|200000|20080|22524201
+"73b23b8a1b9c71cd"|"REFERENCE"|"part"|"p_brand"|200000|7978|489548|"TableScan Impl: ColumnVsValue p_brand = 'Brand#45'"|200000|7978|345666
+"372adc484b8fa830"|"REFERENCE"|"customer"|"c_phone"|68013|19036|12947513|"TableScan Impl: ExpressionEvaluator (SUBSTR(c_phone,1,2)) IN ('27', '29', '31', '12', '34', '17', '16')"|150000|42073|41292168
+"3db9ce4887350d09"|"DATA"|"region"|"r_name"|5|1|25144|"TableScan Impl: ColumnVsValue r_name = 'MIDDLE EAST'"|5|1|20046
+"3db9ce4887350d09"|"DATA"|"part"|"p_type"|200000|1320|230072|"TableScan Impl: ColumnVsValue p_type = 'LARGE POLISHED BRASS'"|200000|1320|252213
+"ed6641de1dfe8bc1"|"DATA"|"orders"|"o_orderdate"|1500000|726007|8723802|"TableScan Impl: ColumnVsValue o_orderdate < '1995-03-13'"|1500000|726007|10230514
+"ed6641de1dfe8bc1"|"DATA"|"customer"|"c_mktsegment"|150000|29968|563375|"TableScan Impl: ColumnVsValue c_mktsegment = 'FURNITURE'"|150000|29968|659693
+"6efe88bca5f93a8f"|"REFERENCE"|"nation"|"n_name"|25|1|15715|"TableScan Impl: ColumnVsValue n_name = 'ROMANIA'"|25|1|14738
+"6efe88bca5f93a8f"|"REFERENCE"|"nation"|"n_name"|25|1|8521|"TableScan Impl: ColumnVsValue n_name = 'KENYA'"|25|1|12782
+"5e9a26b748af9519"|"DATA"|"orders"|"o_orderdate"|1500000|228626|5150564|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1996-01-01' AND '1997-01-01'"|1500000|228626|5501399
+"5e9a26b748af9519"|"DATA"|"region"|"r_name"|5|1|44422|"TableScan Impl: ColumnVsValue r_name = 'ASIA'"|5|1|13760
+"4d7c2c73839ab778"|"REFERENCE"|"nation"|"n_name"|25|1|15366|"TableScan Impl: ColumnVsValue n_name = 'PERU'"|25|1|12921
+"4d7c2c73839ab778"|"REFERENCE"|"nation"|"n_name"|25|1|8311|"TableScan Impl: ColumnVsValue n_name = 'GERMANY'"|25|1|12991
+"716441263d3331d0"|"DATA"|"lineitem"|"l_shipdate"|6001215|77905|10805065|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1997-08-01' AND '1997-09-01'"|6001215|77905|11612202
+"afddbd311059b071"|"REFERENCE"|"nation"|"n_name"|25|1|16204|"TableScan Impl: ColumnVsValue n_name = 'KENYA'"|25|1|14597
+"afddbd311059b071"|"REFERENCE"|"nation"|"n_name"|25|1|8103|"TableScan Impl: ColumnVsValue n_name = 'CHINA'"|25|1|12921
+"1aacb107fdbf7fbf"|"REFERENCE"|"customer"|"c_phone"|67932|19115|12860555|"TableScan Impl: ExpressionEvaluator (SUBSTR(c_phone,1,2)) IN ('10', '19', '33', '18', '15', '14', '26')"|150000|42060|39196936
+"d21ed09f3404b929"|"DATA"|"region"|"r_name"|5|1|25912|"TableScan Impl: ColumnVsValue r_name = 'MIDDLE EAST'"|5|1|15226
+"d21ed09f3404b929"|"DATA"|"part"|"p_type"|200000|1276|233844|"TableScan Impl: ColumnVsValue p_type = 'PROMO ANODIZED BRASS'"|200000|1276|257521
+"bc962ef422efc295"|"REFERENCE"|"nation"|"n_name"|25|1|16832|"TableScan Impl: ColumnVsValue n_name = 'INDONESIA'"|25|1|14318
+"bc962ef422efc295"|"REFERENCE"|"nation"|"n_name"|25|1|8033|"TableScan Impl: ColumnVsValue n_name = 'CHINA'"|25|1|12503
+"c939bfc65c2f7df4"|"DATA"|"orders"|"o_orderdate"|1500000|227783|5146792|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1997-01-01' AND '1998-01-01'"|1500000|227783|5755498
+"c939bfc65c2f7df4"|"DATA"|"region"|"r_name"|5|1|44771|"TableScan Impl: ColumnVsValue r_name = 'AFRICA'"|5|1|13550
+"fba9571f0e588fb5"|"DATA"|"part"|"p_name"|200000|2238|361662|"TableScan Impl: ColumnBetween p_name BETWEEN UPPER EXCLUSIVE 'white' AND 'whitf'"|200000|2238|387224
+"f632edfa7f34c022"|"REFERENCE"|"nation"|"n_name"|25|1|17182|"TableScan Impl: ColumnVsValue n_name = 'UNITED KINGDOM'"|25|1|14109
+"f632edfa7f34c022"|"REFERENCE"|"nation"|"n_name"|25|1|8312|"TableScan Impl: ColumnVsValue n_name = 'RUSSIA'"|25|1|12991
+"f702225c6361ca48"|"REFERENCE"|"nation"|"n_name"|25|1|44073|"TableScan Impl: ColumnVsValue n_name = 'ARGENTINA'"|25|1|13899
+"f702225c6361ca48"|"REFERENCE"|"nation"|"n_name"|25|1|8591|"TableScan Impl: ColumnVsValue n_name = 'EGYPT'"|25|1|12572
+"ecfeeac6124271f3"|"DATA"|"region"|"r_name"|5|1|25494|"TableScan Impl: ColumnVsValue r_name = 'ASIA'"|5|1|14039
+"ecfeeac6124271f3"|"DATA"|"part"|"p_type"|200000|1345|234891|"TableScan Impl: ColumnVsValue p_type = 'ECONOMY PLATED COPPER'"|200000|1345|228605
+"6cf267cd7600d268"|"REFERENCE"|"lineitem"|"l_quantity"|166199|79649|3364748|"TableScan Impl: ColumnVsValue l_quantity < 25"|6001215|2878793|44483420
+"6cf267cd7600d268"|"REFERENCE"|"lineitem"|"l_discount"|913487|166199|5971531|"TableScan Impl: ColumnBetween l_discount BETWEEN INCLUSIVE 0.02 AND 0.04001"|6001215|1090838|25970809
+"6cf267cd7600d268"|"DATA"|"lineitem"|"l_shipdate"|6001215|913487|17159839|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1996-01-01' AND '1997-01-01'"|6001215|913487|18142429
+"7b6bd0b84b3710d9"|"REFERENCE"|"nation"|"n_name"|25|1|16344|"TableScan Impl: ColumnVsValue n_name = 'ROMANIA'"|25|1|21652
+"7b6bd0b84b3710d9"|"REFERENCE"|"nation"|"n_name"|25|1|8311|"TableScan Impl: ColumnVsValue n_name = 'CANADA'"|25|1|13341
+"e94b1537cecea7b4"|"DATA"|"orders"|"o_comment"|1500000|1484020|199566092|"TableScan Impl: ColumnLike o_comment NOT LIKE '%express%deposits%'"|1500000|1484020|214197725
+"b8f2026884d8c3a8"|"DATA"|"part"|"p_name"|200000|10885|22283862|"TableScan Impl: ColumnLike p_name LIKE '%white%'"|200000|10885|24064509
+"d060259834fe79f7"|"DATA"|"part"|"p_name"|200000|10880|22595514|"TableScan Impl: ColumnLike p_name LIKE '%navy%'"|200000|10880|15324852
+"45337615a2f78d4e"|"REFERENCE"|"lineitem"|"l_quantity"|248022|114043|4011938|"TableScan Impl: ColumnVsValue l_quantity < 24"|6001215|2758822|40505008
+"45337615a2f78d4e"|"REFERENCE"|"lineitem"|"l_discount"|908721|248022|7605083|"TableScan Impl: ColumnBetween l_discount BETWEEN INCLUSIVE 0.05 AND 0.07001"|6001215|1637557|33843959
+"45337615a2f78d4e"|"DATA"|"lineitem"|"l_shipdate"|6001215|908721|17376431|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1993-01-01' AND '1994-01-01'"|6001215|908721|18721381
+"7994976cdc25c131"|"REFERENCE"|"lineitem"|"l_quantity"|166048|79478|3268640|"TableScan Impl: ColumnVsValue l_quantity < 25"|6001215|2878793|39926685
+"7994976cdc25c131"|"REFERENCE"|"lineitem"|"l_discount"|909455|166048|6049129|"TableScan Impl: ColumnBetween l_discount BETWEEN INCLUSIVE 0.02 AND 0.04001"|6001215|1090838|25812119
+"7994976cdc25c131"|"DATA"|"lineitem"|"l_shipdate"|6001215|909455|17200140|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1994-01-01' AND '1995-01-01'"|6001215|909455|17836365
+"99e86f072acca614"|"DATA"|"part"|"p_name"|200000|2169|409086|"TableScan Impl: ColumnBetween p_name BETWEEN UPPER EXCLUSIVE 'slate' AND 'slatf'"|200000|2169|423824
+"5f321b46b9d2445d"|"REFERENCE"|"nation"|"n_name"|25|1|15575|"TableScan Impl: ColumnVsValue n_name = 'KENYA'"|25|1|20116
+"5f321b46b9d2445d"|"REFERENCE"|"nation"|"n_name"|25|1|8242|"TableScan Impl: ColumnVsValue n_name = 'ROMANIA'"|25|1|13061
+"497648c7e308ba08"|"REFERENCE"|"lineitem"|"l_quantity"|166939|76626|3300071|"TableScan Impl: ColumnVsValue l_quantity < 24"|6001215|2758822|39516131
+"497648c7e308ba08"|"REFERENCE"|"lineitem"|"l_discount"|914963|166939|6282414|"TableScan Impl: ColumnBetween l_discount BETWEEN INCLUSIVE 0.04 AND 0.06001"|6001215|1091365|25637854
+"497648c7e308ba08"|"DATA"|"lineitem"|"l_shipdate"|6001215|914963|17134206|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1995-01-01' AND '1996-01-01'"|6001215|914963|19290204
+"35d02c51742c5c76"|"DATA"|"orders"|"o_orderdate"|1500000|56516|3198166|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1994-09-01' AND '1994-12-01'"|1500000|56516|3362653
+"b4a9d8860da090d4"|"REFERENCE"|"lineitem"|"l_shipmode"|913018|130474|5452507|"TableScan Impl: ColumnVsValue l_shipmode = 'SHIP'"|6001215|858036|20960076
+"b4a9d8860da090d4"|"DATA"|"lineitem"|"l_receiptdate"|6001215|913018|16317361|"TableScan Impl: ColumnBetween l_receiptdate BETWEEN UPPER EXCLUSIVE '1996-01-01' AND '1997-01-01'"|6001215|913018|18066856
+"b4a9d8860da090d4"|"REFERENCE"|"lineitem"|"l_shipmode"|913018|130264|4635312|"TableScan Impl: ColumnVsValue l_shipmode = 'FOB'"|6001215|857324|20450202
+"f407b6343e686343"|"REFERENCE"|"lineitem"|"l_quantity"|165958|79586|3424816|"TableScan Impl: ColumnVsValue l_quantity < 25"|6001215|2878793|40722157
+"f407b6343e686343"|"REFERENCE"|"lineitem"|"l_discount"|909455|165958|6013089|"TableScan Impl: ColumnBetween l_discount BETWEEN INCLUSIVE 0.01 AND 0.03001"|6001215|1091466|25690448
+"f407b6343e686343"|"DATA"|"lineitem"|"l_shipdate"|6001215|909455|17183378|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1994-01-01' AND '1995-01-01'"|6001215|909455|17877714
+"624c98b4f2dcea9d"|"DATA"|"region"|"r_name"|5|1|24795|"TableScan Impl: ColumnVsValue r_name = 'ASIA'"|5|1|23049
+"624c98b4f2dcea9d"|"DATA"|"part"|"p_type"|200000|1362|230910|"TableScan Impl: ColumnVsValue p_type = 'PROMO PLATED NICKEL'"|200000|1362|267021
+"913fa0955ef59461"|"DATA"|"region"|"r_name"|5|1|28148|"TableScan Impl: ColumnVsValue r_name = 'AMERICA'"|5|1|13620
+"913fa0955ef59461"|"DATA"|"part"|"p_type"|200000|1349|239292|"TableScan Impl: ColumnVsValue p_type = 'STANDARD BURNISHED COPPER'"|200000|1349|224065
+"54c29f5f50c169e9"|"REFERENCE"|"part"|"p_size"|185386|29648|3846754|"TableScan Impl: ExpressionEvaluator (p_size) IN (36, 30, 45, 16, 25, 1, 12, 33)"|200000|32024|4034010
+"54c29f5f50c169e9"|"REFERENCE"|"part"|"p_type"|191994|0|14248|"TableScan Impl: ColumnVsValue p_type < 'ECONOMY ANODIZED'"|200000|0|19696
+"54c29f5f50c169e9"|"DATA"|"part"|"p_brand"|200000|191994|1129685|"TableScan Impl: ColumnVsValue p_brand != 'Brand#41'"|200000|191994|1225583
+"54c29f5f50c169e9"|"REFERENCE"|"part"|"p_type"|191994|185386|1331888|"TableScan Impl: ColumnVsValue p_type >= 'ECONOMY ANODIZEE'"|200000|193163|757477
+"54c29f5f50c169e9"|"REFERENCE"|"supplier"|"s_comment"|10000|4|1542334|"TableScan Impl: ColumnLike s_comment LIKE '%Customer%Complaints%'"|10000|4|1614903
+"58d150518c8f1926"|"REFERENCE"|"part"|"p_brand"|5024|220|93594|"TableScan Impl: ColumnVsValue p_brand = 'Brand#42'"|200000|7908|357330
+"58d150518c8f1926"|"DATA"|"part"|"p_container"|200000|5024|330649|"TableScan Impl: ColumnVsValue p_container = 'JUMBO BAG'"|200000|5024|328485
+"8e622f0e207e6f18"|"DATA"|"orders"|"o_orderdate"|1500000|721658|8808106|"TableScan Impl: ColumnVsValue o_orderdate < '1995-03-06'"|1500000|721658|10188467
+"8e622f0e207e6f18"|"DATA"|"customer"|"c_mktsegment"|150000|29752|552340|"TableScan Impl: ColumnVsValue c_mktsegment = 'AUTOMOBILE'"|150000|29752|648168
+"394be8faae0702a1"|"DATA"|"nation"|"n_name"|25|1|15087|"TableScan Impl: ColumnVsValue n_name = 'CANADA'"|25|1|14109
+"394be8faae0702a1"|"REFERENCE"|"part"|"p_name"|200000|2249|464893|"TableScan Impl: ColumnBetween p_name BETWEEN UPPER EXCLUSIVE 'orchid' AND 'orchie'"|200000|2249|393511
+"394be8faae0702a1"|"REFERENCE"|"lineitem"|"l_shipdate"|6001215|913487|33825939|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1996-01-01' AND '1997-01-01'"|6001215|913487|17634721
+"306bc6df7241ccf9"|"DATA"|"orders"|"o_orderdate"|1500000|226645|5108936|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1993-01-01' AND '1994-01-01'"|1500000|226645|5586611
+"306bc6df7241ccf9"|"DATA"|"region"|"r_name"|5|1|45400|"TableScan Impl: ColumnVsValue r_name = 'AFRICA'"|5|1|16344
+"59c6903e8d1101da"|"DATA"|"nation"|"n_name"|25|1|15646|"TableScan Impl: ColumnVsValue n_name = 'UNITED KINGDOM'"|25|1|14737
+"536dd168a332b7fe"|"REFERENCE"|"lineitem"|"l_shipmode"|914792|130591|5507825|"TableScan Impl: ColumnVsValue l_shipmode = 'RAIL'"|6001215|856484|20744323
+"536dd168a332b7fe"|"DATA"|"lineitem"|"l_receiptdate"|6001215|914792|16538282|"TableScan Impl: ColumnBetween l_receiptdate BETWEEN UPPER EXCLUSIVE '1995-01-01' AND '1996-01-01'"|6001215|914792|18097169
+"536dd168a332b7fe"|"REFERENCE"|"lineitem"|"l_shipmode"|914792|130493|4608002|"TableScan Impl: ColumnVsValue l_shipmode = 'AIR'"|6001215|858104|20698433
+"20e42e320de74706"|"DATA"|"orders"|"o_orderdate"|1500000|732879|8705223|"TableScan Impl: ColumnVsValue o_orderdate < '1995-03-24'"|1500000|732879|10090823
+"20e42e320de74706"|"DATA"|"customer"|"c_mktsegment"|150000|29968|544727|"TableScan Impl: ColumnVsValue c_mktsegment = 'FURNITURE'"|150000|29968|652429
+"5b8fbc10c745e39"|"REFERENCE"|"lineitem"|"l_shipmode"|908518|130050|5897075|"TableScan Impl: ColumnVsValue l_shipmode = 'FOB'"|6001215|857324|20294027
+"5b8fbc10c745e39"|"DATA"|"lineitem"|"l_receiptdate"|6001215|908518|17350099|"TableScan Impl: ColumnBetween l_receiptdate BETWEEN UPPER EXCLUSIVE '1993-01-01' AND '1994-01-01'"|6001215|908518|17666081
+"5b8fbc10c745e39"|"REFERENCE"|"lineitem"|"l_shipmode"|908518|129231|4668699|"TableScan Impl: ColumnVsValue l_shipmode = 'REG AIR'"|6001215|856868|20297170
+"8e477fc795ceaa60"|"DATA"|"orders"|"o_orderdate"|1500000|57138|3090184|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1993-08-01' AND '1993-11-01'"|1500000|57138|3262774
+"d5c636e19e8f112"|"DATA"|"orders"|"o_orderdate"|1500000|55935|3089276|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1995-02-01' AND '1995-05-01'"|1500000|55935|2908655
+"f6311ed25cf11ce6"|"REFERENCE"|"part"|"p_brand"|4934|207|89542|"TableScan Impl: ColumnVsValue p_brand = 'Brand#21'"|200000|7991|369065
+"f6311ed25cf11ce6"|"DATA"|"part"|"p_container"|200000|4934|315493|"TableScan Impl: ColumnVsValue p_container = 'SM CAN'"|200000|4934|349717
+"d61fd9e7b69c5e1c"|"REFERENCE"|"nation"|"n_name"|25|1|15157|"TableScan Impl: ColumnVsValue n_name = 'SAUDI ARABIA'"|25|1|14109
+"d61fd9e7b69c5e1c"|"REFERENCE"|"nation"|"n_name"|25|1|8311|"TableScan Impl: ColumnVsValue n_name = 'JORDAN'"|25|1|12852
+"f5b4c95553e02910"|"REFERENCE"|"part"|"p_type"|3924|790|83745|"TableScan Impl: ColumnLike p_type LIKE '%BRASS'"|200000|40058|1285790
+"f5b4c95553e02910"|"DATA"|"part"|"p_size"|200000|3924|241876|"TableScan Impl: ColumnVsValue p_size = 28"|200000|3924|322199
+"f5b4c95553e02910"|"DATA"|"region"|"r_name"|5|1|12293|"TableScan Impl: ColumnVsValue r_name = 'AFRICA'"|5|1|14389
+"e9654abe67e3ba08"|"REFERENCE"|"part"|"p_type"|4062|790|275611|"TableScan Impl: ColumnLike p_type LIKE '%BRASS'"|200000|40058|1192755
+"e9654abe67e3ba08"|"DATA"|"part"|"p_size"|200000|4062|314027|"TableScan Impl: ColumnVsValue p_size = 5"|200000|4062|275402
+"e9654abe67e3ba08"|"DATA"|"region"|"r_name"|5|1|13690|"TableScan Impl: ColumnVsValue r_name = 'ASIA'"|5|1|12991
+"8ca77c27f027329d"|"DATA"|"orders"|"o_orderdate"|1500000|57270|3212625|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1996-05-01' AND '1996-08-01'"|1500000|57270|2920739
+"6a41bc0efaa0bd6"|"REFERENCE"|"part"|"p_type"|4010|793|87587|"TableScan Impl: ColumnLike p_type LIKE '%COPPER'"|200000|40040|1262113
+"6a41bc0efaa0bd6"|"DATA"|"part"|"p_size"|200000|4010|245368|"TableScan Impl: ColumnVsValue p_size = 44"|200000|4010|273726
+"6a41bc0efaa0bd6"|"DATA"|"region"|"r_name"|5|1|12851|"TableScan Impl: ColumnVsValue r_name = 'EUROPE'"|5|1|13481
+"85f4234992993c80"|"REFERENCE"|"part"|"p_type"|4022|815|103790|"TableScan Impl: ColumnLike p_type LIKE '%BRASS'"|200000|40058|1188984
+"85f4234992993c80"|"DATA"|"part"|"p_size"|200000|4022|245299|"TableScan Impl: ColumnVsValue p_size = 41"|200000|4022|272399
+"85f4234992993c80"|"DATA"|"region"|"r_name"|5|1|12223|"TableScan Impl: ColumnVsValue r_name = 'ASIA'"|5|1|13340
+"aabd9a7ea3216d65"|"DATA"|"nation"|"n_name"|25|1|16344|"TableScan Impl: ColumnVsValue n_name = 'VIETNAM'"|25|1|15296
+"ce243643fa25f4"|"DATA"|"orders"|"o_orderdate"|1500000|724121|8919370|"TableScan Impl: ColumnVsValue o_orderdate < '1995-03-10'"|1500000|724121|10209071
+"ce243643fa25f4"|"DATA"|"customer"|"c_mktsegment"|150000|30189|551851|"TableScan Impl: ColumnVsValue c_mktsegment = 'HOUSEHOLD'"|150000|30189|626307
+"6de79e0ff3cde66e"|"DATA"|"orders"|"o_orderdate"|1500000|57069|2922206|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1993-10-01' AND '1994-01-01'"|1500000|57069|2908516
+"eadbac3893d56f66"|"DATA"|"part"|"p_name"|200000|10782|22576935|"TableScan Impl: ColumnLike p_name LIKE '%deep%'"|200000|10782|24372948
+"d4f9e149097d68f9"|"DATA"|"lineitem"|"l_shipdate"|6001215|5886255|34521673|"TableScan Impl: ColumnVsValue l_shipdate <= '1998-08-18'"|6001215|5886255|44956905
+"9a1adec8eeee6ec1"|"DATA"|"lineitem"|"l_shipdate"|6001215|5905015|39484631|"TableScan Impl: ColumnVsValue l_shipdate <= '1998-08-27'"|6001215|5905015|35755498
+"f0a40ffe87d431b1"|"DATA"|"orders"|"o_orderdate"|1500000|227597|5135687|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1994-01-01' AND '1995-01-01'"|1500000|227597|5989481
+"f0a40ffe87d431b1"|"DATA"|"region"|"r_name"|5|1|42187|"TableScan Impl: ColumnVsValue r_name = 'MIDDLE EAST'"|5|1|17601
+"6297251f15028a74"|"REFERENCE"|"part"|"p_size"|756|78|36599|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 5"|200000|20271|625399
+"6297251f15028a74"|"REFERENCE"|"part"|"p_container"|7822|756|889275|"TableScan Impl: ExpressionEvaluator (p_container) IN ('SM CASE', 'SM BOX', 'SM PACK', 'SM PKG')"|200000|19906|23642990
+"6297251f15028a74"|"REFERENCE"|"part"|"p_brand"|200000|7822|523563|"TableScan Impl: ColumnVsValue p_brand = 'Brand#25'"|200000|7822|384221
+"6297251f15028a74"|"REFERENCE"|"part"|"p_size"|849|166|37927|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 10"|200000|40474|889415
+"6297251f15028a74"|"REFERENCE"|"part"|"p_container"|8158|849|870208|"TableScan Impl: ExpressionEvaluator (p_container) IN ('MED BAG', 'MED BOX', 'MED PKG', 'MED PACK')"|200000|19986|23076192
+"6297251f15028a74"|"REFERENCE"|"part"|"p_brand"|200000|8158|521189|"TableScan Impl: ColumnVsValue p_brand = 'Brand#52'"|200000|8158|350766
+"6297251f15028a74"|"REFERENCE"|"part"|"p_size"|841|255|37927|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 15"|200000|60513|1187797
+"6297251f15028a74"|"REFERENCE"|"part"|"p_container"|8167|841|843387|"TableScan Impl: ExpressionEvaluator (p_container) IN ('LG CASE', 'LG BOX', 'LG PACK', 'LG PKG')"|200000|20080|22505692
+"6297251f15028a74"|"REFERENCE"|"part"|"p_brand"|200000|8167|494996|"TableScan Impl: ColumnVsValue p_brand = 'Brand#12'"|200000|8167|348531
+"57444d10d8dbc8b9"|"DATA"|"lineitem"|"l_shipdate"|6001215|77186|10907389|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1994-07-01' AND '1994-08-01'"|6001215|77186|12088480
+"548b15e67b35ba6b"|"DATA"|"lineitem"|"l_shipdate"|6001215|229123|11949906|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1994-11-01' AND '1995-02-01'"|6001215|229123|11349093
+"10a29f9a2f853b35"|"REFERENCE"|"part"|"p_type"|3945|756|91707|"TableScan Impl: ColumnLike p_type LIKE '%NICKEL'"|200000|40048|1281180
+"10a29f9a2f853b35"|"DATA"|"part"|"p_size"|200000|3945|244390|"TableScan Impl: ColumnVsValue p_size = 49"|200000|3945|280152
+"10a29f9a2f853b35"|"DATA"|"region"|"r_name"|5|1|12432|"TableScan Impl: ColumnVsValue r_name = 'ASIA'"|5|1|13481
+"f4516684c1a0528c"|"DATA"|"orders"|"o_orderdate"|1500000|56349|3075797|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1994-01-01' AND '1994-04-01'"|1500000|56349|2993030
+"c074ef7db223ee78"|"REFERENCE"|"lineitem"|"l_quantity"|166199|76324|3374037|"TableScan Impl: ColumnVsValue l_quantity < 24"|6001215|2758822|40634711
+"c074ef7db223ee78"|"REFERENCE"|"lineitem"|"l_discount"|913487|166199|5954558|"TableScan Impl: ColumnBetween l_discount BETWEEN INCLUSIVE 0.02 AND 0.04001"|6001215|1090838|25949296
+"c074ef7db223ee78"|"DATA"|"lineitem"|"l_shipdate"|6001215|913487|16754944|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1996-01-01' AND '1997-01-01'"|6001215|913487|18166317
+"aa61c7c63d209daf"|"DATA"|"orders"|"o_orderdate"|1500000|734771|8785545|"TableScan Impl: ColumnVsValue o_orderdate < '1995-03-27'"|1500000|734771|10409877
+"aa61c7c63d209daf"|"DATA"|"customer"|"c_mktsegment"|150000|29968|558975|"TableScan Impl: ColumnVsValue c_mktsegment = 'FURNITURE'"|150000|29968|636434
+"7b16c3f88789339"|"DATA"|"nation"|"n_name"|25|1|17601|"TableScan Impl: ColumnVsValue n_name = 'KENYA'"|25|1|14738
+"8368ab7c633a1ab2"|"REFERENCE"|"lineitem"|"l_quantity"|165503|79300|3384725|"TableScan Impl: ColumnVsValue l_quantity < 25"|6001215|2878793|39599527
+"8368ab7c633a1ab2"|"REFERENCE"|"lineitem"|"l_discount"|908721|165503|6127287|"TableScan Impl: ColumnBetween l_discount BETWEEN INCLUSIVE 0.08 AND 0.10001"|6001215|1091124|25888390
+"8368ab7c633a1ab2"|"DATA"|"lineitem"|"l_shipdate"|6001215|908721|17127012|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1993-01-01' AND '1994-01-01'"|6001215|908721|17783003
+"6fb3f7e54d76ceed"|"DATA"|"lineitem"|"l_shipdate"|6001215|5956891|36660628|"TableScan Impl: ColumnVsValue l_shipdate <= '1998-09-27'"|6001215|5956891|36924855
+"44ec7c42799e66fa"|"DATA"|"nation"|"n_name"|25|1|31989|"TableScan Impl: ColumnVsValue n_name = 'UNITED STATES'"|25|1|28567
+"7a589f8ab18426d6"|"DATA"|"lineitem"|"l_shipdate"|6001215|5948421|37980364|"TableScan Impl: ColumnVsValue l_shipdate <= '1998-09-21'"|6001215|5948421|37073975
+"a6d3f28864ab737e"|"DATA"|"orders"|"o_comment"|1500000|1483615|196787279|"TableScan Impl: ColumnLike o_comment NOT LIKE '%pending%accounts%'"|1500000|1483615|210310880
+"70918466ca2b12e7"|"DATA"|"orders"|"o_orderdate"|1500000|726663|9300239|"TableScan Impl: ColumnVsValue o_orderdate < '1995-03-14'"|1500000|726663|10712799
+"70918466ca2b12e7"|"DATA"|"customer"|"c_mktsegment"|150000|30189|562677|"TableScan Impl: ColumnVsValue c_mktsegment = 'HOUSEHOLD'"|150000|30189|641882
+"6081c4fbd55e16ea"|"DATA"|"lineitem"|"l_shipdate"|6001215|5927446|33992661|"TableScan Impl: ColumnVsValue l_shipdate <= '1998-09-08'"|6001215|5927446|35678947
+"8d5b7952e19e73c"|"DATA"|"lineitem"|"l_shipdate"|6001215|224003|12159863|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1993-01-01' AND '1993-04-01'"|6001215|224003|12973286
+"60b9fcce6fd0723e"|"REFERENCE"|"lineitem"|"l_quantity"|248022|119019|4164412|"TableScan Impl: ColumnVsValue l_quantity < 25"|6001215|2878793|40296518
+"60b9fcce6fd0723e"|"REFERENCE"|"lineitem"|"l_discount"|908721|248022|7539009|"TableScan Impl: ColumnBetween l_discount BETWEEN INCLUSIVE 0.05 AND 0.07001"|6001215|1637557|33883772
+"60b9fcce6fd0723e"|"DATA"|"lineitem"|"l_shipdate"|6001215|908721|17218301|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1993-01-01' AND '1994-01-01'"|6001215|908721|18160380
+"c924415412bc1fe5"|"DATA"|"orders"|"o_orderdate"|1500000|227597|5092731|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1994-01-01' AND '1995-01-01'"|1500000|227597|5841827
+"c924415412bc1fe5"|"DATA"|"region"|"r_name"|5|1|41837|"TableScan Impl: ColumnVsValue r_name = 'AFRICA'"|5|1|20604
+"831b52708146a2fc"|"REFERENCE"|"part"|"p_type"|4004|825|85492|"TableScan Impl: ColumnLike p_type LIKE '%NICKEL'"|200000|40048|1234802
+"831b52708146a2fc"|"DATA"|"part"|"p_size"|200000|4004|243203|"TableScan Impl: ColumnVsValue p_size = 21"|200000|4004|308090
+"831b52708146a2fc"|"DATA"|"region"|"r_name"|5|1|12013|"TableScan Impl: ColumnVsValue r_name = 'ASIA'"|5|1|13550
+"293f860d984d2aa6"|"DATA"|"orders"|"o_orderdate"|1500000|57332|2942601|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1993-11-01' AND '1994-02-01'"|1500000|57332|2974381
+"5730a8235428bd67"|"DATA"|"part"|"p_name"|200000|2186|362499|"TableScan Impl: ColumnBetween p_name BETWEEN UPPER EXCLUSIVE 'antique' AND 'antiquf'"|200000|2186|378284
+"30f9c33deb29708f"|"DATA"|"orders"|"o_orderdate"|1500000|57111|3195303|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1994-08-01' AND '1994-11-01'"|1500000|57111|2916688
+"f39f4116b27ebc04"|"DATA"|"orders"|"o_orderdate"|1500000|733457|8696352|"TableScan Impl: ColumnVsValue o_orderdate < '1995-03-25'"|1500000|733457|10110239
+"f39f4116b27ebc04"|"DATA"|"customer"|"c_mktsegment"|150000|30142|563725|"TableScan Impl: ColumnVsValue c_mktsegment = 'BUILDING'"|150000|30142|631406
+"4582f099547f7754"|"DATA"|"lineitem"|"l_shipdate"|6001215|230363|12021498|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1995-05-01' AND '1995-08-01'"|6001215|230363|12108526
+"e61e203cab97966a"|"DATA"|"orders"|"o_orderdate"|1500000|729189|8626227|"TableScan Impl: ColumnVsValue o_orderdate < '1995-03-18'"|1500000|729189|9937232
+"e61e203cab97966a"|"DATA"|"customer"|"c_mktsegment"|150000|30189|546054|"TableScan Impl: ColumnVsValue c_mktsegment = 'HOUSEHOLD'"|150000|30189|624910
+"f6190012594cc036"|"DATA"|"orders"|"o_orderdate"|1500000|737165|8648229|"TableScan Impl: ColumnVsValue o_orderdate < '1995-03-31'"|1500000|737165|9656102
+"f6190012594cc036"|"DATA"|"customer"|"c_mktsegment"|150000|29949|569731|"TableScan Impl: ColumnVsValue c_mktsegment = 'MACHINERY'"|150000|29949|622535
+"1f28a146cc97b628"|"REFERENCE"|"part"|"p_type"|3893|801|88704|"TableScan Impl: ColumnLike p_type LIKE '%STEEL'"|200000|39683|1178507
+"1f28a146cc97b628"|"DATA"|"part"|"p_size"|200000|3893|242714|"TableScan Impl: ColumnVsValue p_size = 45"|200000|3893|286507
+"1f28a146cc97b628"|"DATA"|"region"|"r_name"|5|1|12083|"TableScan Impl: ColumnVsValue r_name = 'MIDDLE EAST'"|5|1|14039
+"66497423f466cd35"|"DATA"|"orders"|"o_orderdate"|1500000|57093|2966278|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1993-05-01' AND '1993-08-01'"|1500000|57093|2909215
+"9f57b28f52fd20ed"|"DATA"|"orders"|"o_orderdate"|1500000|56934|3073701|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1993-03-01' AND '1993-06-01'"|1500000|56934|2875200
+"32494be5b6fe6fc3"|"DATA"|"orders"|"o_orderdate"|1500000|227783|5160901|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1997-01-01' AND '1998-01-01'"|1500000|227783|5434347
+"32494be5b6fe6fc3"|"DATA"|"region"|"r_name"|5|1|43793|"TableScan Impl: ColumnVsValue r_name = 'MIDDLE EAST'"|5|1|13969
+"939268245a9ddddf"|"DATA"|"part"|"p_name"|200000|10718|18484813|"TableScan Impl: ColumnLike p_name LIKE '%metallic%'"|200000|10718|19583906
+"b60359462a1169c5"|"DATA"|"nation"|"n_name"|25|1|15995|"TableScan Impl: ColumnVsValue n_name = 'ARGENTINA'"|25|1|19347
+"580bc766bcba5139"|"DATA"|"orders"|"o_orderdate"|1500000|228637|5164253|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1995-01-01' AND '1996-01-01'"|1500000|228637|5733357
+"580bc766bcba5139"|"DATA"|"region"|"r_name"|5|1|43444|"TableScan Impl: ColumnVsValue r_name = 'ASIA'"|5|1|13690
+"d83cdc532da56832"|"DATA"|"orders"|"o_orderdate"|1500000|57332|3085785|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1993-11-01' AND '1994-02-01'"|1500000|57332|2933451
+"cede475d1331e7a4"|"REFERENCE"|"part"|"p_brand"|5064|187|53223|"TableScan Impl: ColumnVsValue p_brand = 'Brand#24'"|200000|7975|365782
+"cede475d1331e7a4"|"DATA"|"part"|"p_container"|200000|5064|323665|"TableScan Impl: ColumnVsValue p_container = 'MED CASE'"|200000|5064|335469
+"ba82d0c32a2d0968"|"REFERENCE"|"nation"|"n_name"|25|1|15366|"TableScan Impl: ColumnVsValue n_name = 'INDONESIA'"|25|1|14039
+"ba82d0c32a2d0968"|"REFERENCE"|"nation"|"n_name"|25|1|8102|"TableScan Impl: ColumnVsValue n_name = 'SAUDI ARABIA'"|25|1|12922
+"409143bccde7fd31"|"DATA"|"orders"|"o_orderdate"|1500000|228626|5136735|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1996-01-01' AND '1997-01-01'"|1500000|228626|5515369
+"409143bccde7fd31"|"DATA"|"region"|"r_name"|5|1|44073|"TableScan Impl: ColumnVsValue r_name = 'EUROPE'"|5|1|13689
+"1a48bd3a39e20462"|"DATA"|"lineitem"|"l_shipdate"|6001215|5940906|33404769|"TableScan Impl: ColumnVsValue l_shipdate <= '1998-09-16'"|6001215|5940906|36068057
+"46e8009fa6aa10d8"|"DATA"|"nation"|"n_name"|25|1|15575|"TableScan Impl: ColumnVsValue n_name = 'ETHIOPIA'"|25|1|28637
+"8dc3fd52eb6d3c3d"|"REFERENCE"|"part"|"p_size"|798|89|37786|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 5"|200000|20271|636434
+"8dc3fd52eb6d3c3d"|"REFERENCE"|"part"|"p_container"|7920|798|901849|"TableScan Impl: ExpressionEvaluator (p_container) IN ('SM CASE', 'SM BOX', 'SM PACK', 'SM PKG')"|200000|19906|23475989
+"8dc3fd52eb6d3c3d"|"REFERENCE"|"part"|"p_brand"|200000|7920|531875|"TableScan Impl: ColumnVsValue p_brand = 'Brand#51'"|200000|7920|383244
+"8dc3fd52eb6d3c3d"|"REFERENCE"|"part"|"p_size"|795|163|36669|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 10"|200000|40474|916376
+"8dc3fd52eb6d3c3d"|"REFERENCE"|"part"|"p_container"|7999|795|864061|"TableScan Impl: ExpressionEvaluator (p_container) IN ('MED BAG', 'MED BOX', 'MED PKG', 'MED PACK')"|200000|19986|22904721
+"8dc3fd52eb6d3c3d"|"REFERENCE"|"part"|"p_brand"|200000|7999|497301|"TableScan Impl: ColumnVsValue p_brand = 'Brand#15'"|200000|7999|346225
+"8dc3fd52eb6d3c3d"|"REFERENCE"|"part"|"p_size"|835|272|38555|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 15"|200000|60513|1201556
+"8dc3fd52eb6d3c3d"|"REFERENCE"|"part"|"p_container"|7978|835|823201|"TableScan Impl: ExpressionEvaluator (p_container) IN ('LG CASE', 'LG BOX', 'LG PACK', 'LG PKG')"|200000|20080|22442482
+"8dc3fd52eb6d3c3d"|"REFERENCE"|"part"|"p_brand"|200000|7978|500375|"TableScan Impl: ColumnVsValue p_brand = 'Brand#22'"|200000|7978|344689
+"c285de8ddda592f2"|"DATA"|"lineitem"|"l_shipdate"|6001215|229039|11830820|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1994-06-01' AND '1994-09-01'"|6001215|229039|14743247
+"26fa2b5482e6fcbc"|"REFERENCE"|"part"|"p_type"|3945|816|89193|"TableScan Impl: ColumnLike p_type LIKE '%TIN'"|200000|40171|1264696
+"26fa2b5482e6fcbc"|"DATA"|"part"|"p_size"|200000|3945|243202|"TableScan Impl: ColumnVsValue p_size = 49"|200000|3945|280011
+"26fa2b5482e6fcbc"|"DATA"|"region"|"r_name"|5|1|12223|"TableScan Impl: ColumnVsValue r_name = 'MIDDLE EAST'"|5|1|13480
+"ed9ec0a400f7ec7f"|"DATA"|"nation"|"n_name"|25|1|14737|"TableScan Impl: ColumnVsValue n_name = 'ALGERIA'"|25|1|13550
+"fe56436b8c0d101"|"REFERENCE"|"lineitem"|"l_shipmode"|909844|130145|5393417|"TableScan Impl: ColumnVsValue l_shipmode = 'RAIL'"|6001215|856484|21525896
+"fe56436b8c0d101"|"DATA"|"lineitem"|"l_receiptdate"|6001215|909844|16781066|"TableScan Impl: ColumnBetween l_receiptdate BETWEEN UPPER EXCLUSIVE '1994-01-01' AND '1995-01-01'"|6001215|909844|17950703
+"fe56436b8c0d101"|"REFERENCE"|"lineitem"|"l_shipmode"|909844|130036|4609888|"TableScan Impl: ColumnVsValue l_shipmode = 'SHIP'"|6001215|858036|20604561
+"85c77cc53ff9fd3f"|"REFERENCE"|"lineitem"|"l_shipmode"|911529|130191|5493367|"TableScan Impl: ColumnVsValue l_shipmode = 'RAIL'"|6001215|856484|20110752
+"85c77cc53ff9fd3f"|"DATA"|"lineitem"|"l_receiptdate"|6001215|911529|16638930|"TableScan Impl: ColumnBetween l_receiptdate BETWEEN UPPER EXCLUSIVE '1997-01-01' AND '1998-01-01'"|6001215|911529|16985854
+"85c77cc53ff9fd3f"|"REFERENCE"|"lineitem"|"l_shipmode"|911529|130345|4609470|"TableScan Impl: ColumnVsValue l_shipmode = 'FOB'"|6001215|857324|20400472
+"df6e2c89797dffb1"|"REFERENCE"|"lineitem"|"l_shipmode"|913018|130474|5525985|"TableScan Impl: ColumnVsValue l_shipmode = 'SHIP'"|6001215|858036|20086725
+"df6e2c89797dffb1"|"DATA"|"lineitem"|"l_receiptdate"|6001215|913018|16796292|"TableScan Impl: ColumnBetween l_receiptdate BETWEEN UPPER EXCLUSIVE '1996-01-01' AND '1997-01-01'"|6001215|913018|16905322
+"df6e2c89797dffb1"|"REFERENCE"|"lineitem"|"l_shipmode"|913018|130440|4641249|"TableScan Impl: ColumnVsValue l_shipmode = 'MAIL'"|6001215|857401|20278731
+"e16ba5ded0a91c94"|"REFERENCE"|"part"|"p_brand"|4848|183|89612|"TableScan Impl: ColumnVsValue p_brand = 'Brand#15'"|200000|7999|380380
+"e16ba5ded0a91c94"|"DATA"|"part"|"p_container"|200000|4848|313817|"TableScan Impl: ColumnVsValue p_container = 'LG DRUM'"|200000|4848|333723
+"6f6600af042e5b0"|"DATA"|"nation"|"n_name"|25|1|16204|"TableScan Impl: ColumnVsValue n_name = 'INDONESIA'"|25|1|14877
+"ee94325d3e4bf0a8"|"REFERENCE"|"lineitem"|"l_shipmode"|911529|130859|5401170|"TableScan Impl: ColumnVsValue l_shipmode = 'TRUCK'"|6001215|856998|20133243
+"ee94325d3e4bf0a8"|"DATA"|"lineitem"|"l_receiptdate"|6001215|911529|16747679|"TableScan Impl: ColumnBetween l_receiptdate BETWEEN UPPER EXCLUSIVE '1997-01-01' AND '1998-01-01'"|6001215|911529|16987949
+"ee94325d3e4bf0a8"|"REFERENCE"|"lineitem"|"l_shipmode"|911529|130266|4616035|"TableScan Impl: ColumnVsValue l_shipmode = 'REG AIR'"|6001215|856868|20253447
+"e91abaaf0361cf21"|"REFERENCE"|"lineitem"|"l_shipmode"|913018|130372|5502657|"TableScan Impl: ColumnVsValue l_shipmode = 'RAIL'"|6001215|856484|20074921
+"e91abaaf0361cf21"|"DATA"|"lineitem"|"l_receiptdate"|6001215|913018|16582774|"TableScan Impl: ColumnBetween l_receiptdate BETWEEN UPPER EXCLUSIVE '1996-01-01' AND '1997-01-01'"|6001215|913018|16789588
+"e91abaaf0361cf21"|"REFERENCE"|"lineitem"|"l_shipmode"|913018|130695|4606815|"TableScan Impl: ColumnVsValue l_shipmode = 'AIR'"|6001215|858104|20202599
+"40dd02fd8b65a557"|"REFERENCE"|"lineitem"|"l_shipmode"|914792|130493|5548755|"TableScan Impl: ColumnVsValue l_shipmode = 'AIR'"|6001215|858104|20084280
+"40dd02fd8b65a557"|"DATA"|"lineitem"|"l_receiptdate"|6001215|914792|16910350|"TableScan Impl: ColumnBetween l_receiptdate BETWEEN UPPER EXCLUSIVE '1995-01-01' AND '1996-01-01'"|6001215|914792|16869560
+"40dd02fd8b65a557"|"REFERENCE"|"lineitem"|"l_shipmode"|914792|130591|4633007|"TableScan Impl: ColumnVsValue l_shipmode = 'RAIL'"|6001215|856484|20169492
+"10e5998ac1cb05cc"|"DATA"|"orders"|"o_comment"|1500000|1483868|203610579|"TableScan Impl: ColumnLike o_comment NOT LIKE '%unusual%deposits%'"|1500000|1483868|219233323
+"9eb6458e415e9749"|"DATA"|"orders"|"o_comment"|1500000|1483804|207896802|"TableScan Impl: ColumnLike o_comment NOT LIKE '%special%deposits%'"|1500000|1483804|223685919
+"4e4cb5b90ba5de03"|"DATA"|"lineitem"|"l_shipdate"|6001215|5853339|37630226|"TableScan Impl: ColumnVsValue l_shipdate <= '1998-08-04'"|6001215|5853339|40661043
+"b4a423000b41ba67"|"DATA"|"orders"|"o_comment"|1500000|1483813|204290737|"TableScan Impl: ColumnLike o_comment NOT LIKE '%unusual%requests%'"|1500000|1483813|218987536
+"20133198d3a5604f"|"DATA"|"orders"|"o_comment"|1500000|1483898|195525586|"TableScan Impl: ColumnLike o_comment NOT LIKE '%pending%packages%'"|1500000|1483898|209177703
+"5aa537e0d658225a"|"DATA"|"lineitem"|"l_shipdate"|6001215|5865548|36765607|"TableScan Impl: ColumnVsValue l_shipdate <= '1998-08-09'"|6001215|5865548|35766114
+"3cc1f8a9198cab80"|"REFERENCE"|"part"|"p_size"|185649|29736|5979842|"TableScan Impl: ExpressionEvaluator (p_size) IN (10, 50, 15, 21, 49, 19, 3, 12)"|200000|31908|4066000
+"3cc1f8a9198cab80"|"REFERENCE"|"part"|"p_type"|192062|153583|1674202|"TableScan Impl: ColumnVsValue p_type < 'SMALL POLISHED'"|200000|159866|1284952
+"3cc1f8a9198cab80"|"DATA"|"part"|"p_brand"|200000|192062|787581|"TableScan Impl: ColumnVsValue p_brand != 'Brand#54'"|200000|192062|839895
+"3cc1f8a9198cab80"|"REFERENCE"|"part"|"p_type"|192062|32066|1021633|"TableScan Impl: ColumnVsValue p_type >= 'SMALL POLISHEE'"|200000|33434|904432
+"3cc1f8a9198cab80"|"REFERENCE"|"supplier"|"s_comment"|10000|4|1536117|"TableScan Impl: ColumnLike s_comment LIKE '%Customer%Complaints%'"|10000|4|1619932
+"96d8fcdffa88f938"|"DATA"|"lineitem"|"l_shipdate"|6001215|75292|11411605|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1995-06-01' AND '1995-07-01'"|6001215|75292|11169870
+"4c3c6d9bd8a2091e"|"DATA"|"orders"|"o_orderdate"|1500000|57138|3101710|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1993-08-01' AND '1993-11-01'"|1500000|57138|3484534
+"f27e19dc8c403e8f"|"DATA"|"orders"|"o_comment"|1500000|1483656|197183444|"TableScan Impl: ColumnLike o_comment NOT LIKE '%pending%requests%'"|1500000|1483656|210309692
+"6cb6d54beeff1622"|"REFERENCE"|"part"|"p_size"|777|70|35761|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 5"|200000|20271|623163
+"6cb6d54beeff1622"|"REFERENCE"|"part"|"p_container"|8158|777|962544|"TableScan Impl: ExpressionEvaluator (p_container) IN ('SM CASE', 'SM BOX', 'SM PACK', 'SM PKG')"|200000|19906|23676865
+"6cb6d54beeff1622"|"REFERENCE"|"part"|"p_brand"|200000|8158|539628|"TableScan Impl: ColumnVsValue p_brand = 'Brand#52'"|200000|8158|406084
+"6cb6d54beeff1622"|"REFERENCE"|"part"|"p_size"|760|151|34643|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 10"|200000|40474|902756
+"6cb6d54beeff1622"|"REFERENCE"|"part"|"p_container"|7876|760|840453|"TableScan Impl: ExpressionEvaluator (p_container) IN ('MED BAG', 'MED BOX', 'MED PKG', 'MED PACK')"|200000|19986|23111534
+"6cb6d54beeff1622"|"REFERENCE"|"part"|"p_brand"|200000|7876|488710|"TableScan Impl: ColumnVsValue p_brand = 'Brand#11'"|200000|7876|349369
+"6cb6d54beeff1622"|"REFERENCE"|"part"|"p_size"|776|230|37507|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 15"|200000|60513|1196178
+"6cb6d54beeff1622"|"REFERENCE"|"part"|"p_container"|7991|776|836263|"TableScan Impl: ExpressionEvaluator (p_container) IN ('LG CASE', 'LG BOX', 'LG PACK', 'LG PKG')"|200000|20080|22324652
+"6cb6d54beeff1622"|"REFERENCE"|"part"|"p_brand"|200000|7991|492482|"TableScan Impl: ColumnVsValue p_brand = 'Brand#21'"|200000|7991|343781
+"f16984c46aa94970"|"DATA"|"lineitem"|"l_shipdate"|6001215|5914748|35113336|"TableScan Impl: ColumnVsValue l_shipdate <= '1998-09-01'"|6001215|5914748|39991152
+"df58c685a959c044"|"DATA"|"lineitem"|"l_shipdate"|6001215|75186|10899776|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1994-04-01' AND '1994-05-01'"|6001215|75186|10547335
+"4b37ed37cf98bfac"|"DATA"|"orders"|"o_orderdate"|1500000|57093|2984298|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1993-05-01' AND '1993-08-01'"|1500000|57093|3359720
+"c2b1ab1624cdc91c"|"DATA"|"orders"|"o_orderdate"|1500000|228637|5095106|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1995-01-01' AND '1996-01-01'"|1500000|228637|5746977
+"c2b1ab1624cdc91c"|"DATA"|"region"|"r_name"|5|1|42746|"TableScan Impl: ColumnVsValue r_name = 'EUROPE'"|5|1|18719
+"7c90cd3a1b165fad"|"REFERENCE"|"part"|"p_brand"|4866|190|93873|"TableScan Impl: ColumnVsValue p_brand = 'Brand#41'"|200000|8006|370532
+"7c90cd3a1b165fad"|"DATA"|"part"|"p_container"|200000|4866|318427|"TableScan Impl: ColumnVsValue p_container = 'SM CASE'"|200000|4866|324015
+"8f1f30dfee59c323"|"DATA"|"lineitem"|"l_shipdate"|6001215|76969|11400081|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1996-07-01' AND '1996-08-01'"|6001215|76969|9403541
+"2f761954933ef04"|"DATA"|"nation"|"n_name"|25|1|15855|"TableScan Impl: ColumnVsValue n_name = 'CHINA'"|25|1|14947
+"dab074f4f1f6b006"|"DATA"|"lineitem"|"l_shipdate"|6001215|74537|10249652|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1997-04-01' AND '1997-05-01'"|6001215|74537|9148254
+"a23672782a2a93af"|"DATA"|"lineitem"|"l_shipdate"|6001215|77203|10987572|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1993-07-01' AND '1993-08-01'"|6001215|77203|9253861
+"cc8ca2d4264204b1"|"DATA"|"lineitem"|"l_shipdate"|6001215|228914|12123543|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1996-05-01' AND '1996-08-01'"|6001215|228914|11205141
+"21810eadacd14054"|"DATA"|"part"|"p_name"|200000|10723|22725217|"TableScan Impl: ColumnLike p_name LIKE '%dark%'"|200000|10723|24455576
+"9ba244c4795319f2"|"DATA"|"lineitem"|"l_shipdate"|6001215|224003|11659558|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1993-01-01' AND '1993-04-01'"|6001215|224003|12478010
+"909500ae2ee65d1f"|"DATA"|"orders"|"o_orderdate"|1500000|57556|2905513|"TableScan Impl: ColumnBetween o_orderdate BETWEEN UPPER EXCLUSIVE '1995-03-01' AND '1995-06-01'"|1500000|57556|3294693
+"129f61e2f3ecf0ef"|"DATA"|"lineitem"|"l_shipdate"|6001215|230322|11877476|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1994-03-01' AND '1994-06-01'"|6001215|230322|11360968
+"dbd83f57b52f1255"|"REFERENCE"|"part"|"p_type"|3971|808|87028|"TableScan Impl: ColumnLike p_type LIKE '%NICKEL'"|200000|40048|1279504
+"dbd83f57b52f1255"|"DATA"|"part"|"p_size"|200000|3971|242994|"TableScan Impl: ColumnVsValue p_size = 46"|200000|3971|314585
+"dbd83f57b52f1255"|"DATA"|"region"|"r_name"|5|1|12153|"TableScan Impl: ColumnVsValue r_name = 'MIDDLE EAST'"|5|1|14109
+"a6887314ba57e85c"|"REFERENCE"|"part"|"p_size"|185571|30334|6110454|"TableScan Impl: ExpressionEvaluator (p_size) IN (20, 30, 26, 35, 7, 14, 29, 10)"|200000|32674|3986865
+"a6887314ba57e85c"|"REFERENCE"|"part"|"p_type"|192032|127722|1838060|"TableScan Impl: ColumnVsValue p_type < 'SMALL ANODIZED'"|200000|132994|1378894
+"a6887314ba57e85c"|"DATA"|"part"|"p_brand"|200000|192032|845762|"TableScan Impl: ColumnVsValue p_brand != 'Brand#31'"|200000|192032|834307
+"a6887314ba57e85c"|"REFERENCE"|"part"|"p_type"|192032|57849|1433863|"TableScan Impl: ColumnVsValue p_type >= 'SMALL ANODIZEE'"|200000|60263|1124587
+"a6887314ba57e85c"|"REFERENCE"|"supplier"|"s_comment"|10000|4|1538213|"TableScan Impl: ColumnLike s_comment LIKE '%Customer%Complaints%'"|10000|4|1626079
+"522ef8893e703a3a"|"REFERENCE"|"lineitem"|"l_quantity"|166048|76103|3406027|"TableScan Impl: ColumnVsValue l_quantity < 24"|6001215|2758822|40166884
+"522ef8893e703a3a"|"REFERENCE"|"lineitem"|"l_discount"|909455|166048|6173804|"TableScan Impl: ColumnBetween l_discount BETWEEN INCLUSIVE 0.02 AND 0.04001"|6001215|1090838|25861570
+"522ef8893e703a3a"|"DATA"|"lineitem"|"l_shipdate"|6001215|909455|17220186|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1994-01-01' AND '1995-01-01'"|6001215|909455|18153675
+"239bb106372cd9ad"|"DATA"|"lineitem"|"l_shipdate"|6001215|76352|10841385|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1993-05-01' AND '1993-06-01'"|6001215|76352|9335790
+"a44a3d6989b5b76a"|"DATA"|"orders"|"o_comment"|1500000|1483918|206739947|"TableScan Impl: ColumnLike o_comment NOT LIKE '%special%requests%'"|1500000|1483918|223206777
+"ab8e3343baeab48e"|"REFERENCE"|"part"|"p_size"|756|78|38136|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 5"|200000|20271|640416
+"ab8e3343baeab48e"|"REFERENCE"|"part"|"p_container"|7822|756|925875|"TableScan Impl: ExpressionEvaluator (p_container) IN ('SM CASE', 'SM BOX', 'SM PACK', 'SM PKG')"|200000|19906|23475849
+"ab8e3343baeab48e"|"REFERENCE"|"part"|"p_brand"|200000|7822|526148|"TableScan Impl: ColumnVsValue p_brand = 'Brand#25'"|200000|7822|417678
+"ab8e3343baeab48e"|"REFERENCE"|"part"|"p_size"|811|183|36250|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 10"|200000|40474|887110
+"ab8e3343baeab48e"|"REFERENCE"|"part"|"p_container"|8088|811|883060|"TableScan Impl: ExpressionEvaluator (p_container) IN ('MED BAG', 'MED BOX', 'MED PKG', 'MED PACK')"|200000|19986|22947187
+"ab8e3343baeab48e"|"REFERENCE"|"part"|"p_brand"|200000|8088|507080|"TableScan Impl: ColumnVsValue p_brand = 'Brand#53'"|200000|8088|349020
+"ab8e3343baeab48e"|"REFERENCE"|"part"|"p_size"|808|239|37787|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 15"|200000|60513|1220275
+"ab8e3343baeab48e"|"REFERENCE"|"part"|"p_container"|8031|808|871744|"TableScan Impl: ExpressionEvaluator (p_container) IN ('LG CASE', 'LG BOX', 'LG PACK', 'LG PKG')"|200000|20080|22299648
+"ab8e3343baeab48e"|"REFERENCE"|"part"|"p_brand"|200000|8031|491574|"TableScan Impl: ColumnVsValue p_brand = 'Brand#55'"|200000|8031|345876
+"33d198b26945d669"|"DATA"|"lineitem"|"l_shipdate"|6001215|223684|11696995|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1995-02-01' AND '1995-05-01'"|6001215|223684|13356041
+"554a5f5419b5d610"|"REFERENCE"|"lineitem"|"l_quantity"|249002|119046|4125438|"TableScan Impl: ColumnVsValue l_quantity < 25"|6001215|2878793|40203762
+"554a5f5419b5d610"|"REFERENCE"|"lineitem"|"l_discount"|913487|249002|7886841|"TableScan Impl: ColumnBetween l_discount BETWEEN INCLUSIVE 0.05 AND 0.07001"|6001215|1637557|33826987
+"554a5f5419b5d610"|"DATA"|"lineitem"|"l_shipdate"|6001215|913487|16924878|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1996-01-01' AND '1997-01-01'"|6001215|913487|18593353
+"de539b0082efe7f2"|"REFERENCE"|"part"|"p_type"|3963|796|83815|"TableScan Impl: ColumnLike p_type LIKE '%STEEL'"|200000|39683|1283136
+"de539b0082efe7f2"|"DATA"|"part"|"p_size"|200000|3963|242225|"TableScan Impl: ColumnVsValue p_size = 20"|200000|3963|312350
+"de539b0082efe7f2"|"DATA"|"region"|"r_name"|5|1|11943|"TableScan Impl: ColumnVsValue r_name = 'EUROPE'"|5|1|15017
+"f048d2943c79146a"|"REFERENCE"|"part"|"p_brand"|5091|213|92126|"TableScan Impl: ColumnVsValue p_brand = 'Brand#31'"|200000|7968|374862
+"f048d2943c79146a"|"DATA"|"part"|"p_container"|200000|5091|319335|"TableScan Impl: ColumnVsValue p_container = 'LG PACK'"|200000|5091|317588
+"3898d8ff5bfa1046"|"DATA"|"lineitem"|"l_shipdate"|6001215|5963389|49686648|"TableScan Impl: ColumnVsValue l_shipdate <= '1998-10-02'"|6001215|5963389|38264985
+"cca164d8b97d6685"|"DATA"|"lineitem"|"l_shipdate"|6001215|230322|11717669|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1994-03-01' AND '1994-06-01'"|6001215|230322|12789313
+"5236ac4960fec27e"|"REFERENCE"|"part"|"p_size"|185755|29526|6180230|"TableScan Impl: ExpressionEvaluator (p_size) IN (34, 14, 17, 50, 23, 13, 12, 18)"|200000|31855|3985747
+"5236ac4960fec27e"|"REFERENCE"|"part"|"p_type"|192082|95794|1796083|"TableScan Impl: ColumnVsValue p_type < 'PROMO ANODIZED'"|200000|99820|1362062
+"5236ac4960fec27e"|"DATA"|"part"|"p_brand"|200000|192082|971624|"TableScan Impl: ColumnVsValue p_brand != 'Brand#43'"|200000|192082|925386
+"5236ac4960fec27e"|"REFERENCE"|"part"|"p_type"|192082|89961|1784070|"TableScan Impl: ColumnVsValue p_type >= 'PROMO ANODIZEE'"|200000|93595|1307303
+"5236ac4960fec27e"|"REFERENCE"|"supplier"|"s_comment"|10000|4|1553020|"TableScan Impl: ColumnLike s_comment LIKE '%Customer%Complaints%'"|10000|4|1646543
+"cbd21a9ad8326118"|"REFERENCE"|"part"|"p_size"|185534|29437|5982496|"TableScan Impl: ExpressionEvaluator (p_size) IN (12, 31, 6, 25, 4, 2, 33, 43)"|200000|31735|3874832
+"cbd21a9ad8326118"|"REFERENCE"|"part"|"p_type"|192052|51113|1210287|"TableScan Impl: ColumnVsValue p_type < 'LARGE PLATED'"|200000|53269|1029945
+"cbd21a9ad8326118"|"DATA"|"part"|"p_brand"|200000|192052|794845|"TableScan Impl: ColumnVsValue p_brand != 'Brand#32'"|200000|192052|784647
+"cbd21a9ad8326118"|"REFERENCE"|"part"|"p_type"|192052|134421|2144404|"TableScan Impl: ColumnVsValue p_type >= 'LARGE PLATEE'"|200000|139944|1282997
+"cbd21a9ad8326118"|"REFERENCE"|"supplier"|"s_comment"|10000|4|1554836|"TableScan Impl: ColumnLike s_comment LIKE '%Customer%Complaints%'"|10000|4|853026
+"76a116def48395a8"|"DATA"|"lineitem"|"l_shipdate"|6001215|229796|12452027|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1993-08-01' AND '1993-11-01'"|6001215|229796|11232312
+"120596d9b01f7ec8"|"REFERENCE"|"part"|"p_size"|185496|29535|5944989|"TableScan Impl: ExpressionEvaluator (p_size) IN (3, 36, 11, 39, 27, 24, 45, 32)"|200000|31859|3920441
+"120596d9b01f7ec8"|"REFERENCE"|"part"|"p_type"|191994|159909|1649756|"TableScan Impl: ColumnVsValue p_type < 'STANDARD ANODIZED'"|200000|166566|983778
+"120596d9b01f7ec8"|"DATA"|"part"|"p_brand"|200000|191994|794145|"TableScan Impl: ColumnVsValue p_brand != 'Brand#41'"|200000|191994|783250
+"120596d9b01f7ec8"|"REFERENCE"|"part"|"p_type"|191994|25587|928110|"TableScan Impl: ColumnVsValue p_type >= 'STANDARD ANODIZEE'"|200000|26643|655572
+"120596d9b01f7ec8"|"REFERENCE"|"supplier"|"s_comment"|10000|4|1543661|"TableScan Impl: ColumnLike s_comment LIKE '%Customer%Complaints%'"|10000|4|866296
+"31cede76d8935739"|"REFERENCE"|"part"|"p_size"|185705|29935|5963638|"TableScan Impl: ExpressionEvaluator (p_size) IN (33, 47, 46, 18, 9, 32, 16, 7)"|200000|32266|3895925
+"31cede76d8935739"|"REFERENCE"|"part"|"p_type"|192080|12842|612128|"TableScan Impl: ColumnVsValue p_type < 'ECONOMY BURNISHED'"|200000|13419|555763
+"31cede76d8935739"|"DATA"|"part"|"p_brand"|200000|192080|1007175|"TableScan Impl: ColumnVsValue p_brand != 'Brand#51'"|200000|192080|811258
+"31cede76d8935739"|"REFERENCE"|"part"|"p_type"|192080|172863|1639489|"TableScan Impl: ColumnVsValue p_type >= 'ECONOMY BURNISHEE'"|200000|179947|862804
+"31cede76d8935739"|"REFERENCE"|"supplier"|"s_comment"|10000|4|1555814|"TableScan Impl: ColumnLike s_comment LIKE '%Customer%Complaints%'"|10000|4|851560
+"c99cd411c3101d8b"|"REFERENCE"|"part"|"p_size"|185632|29567|5968038|"TableScan Impl: ExpressionEvaluator (p_size) IN (1, 17, 21, 27, 41, 23, 14, 8)"|200000|31886|3968286
+"c99cd411c3101d8b"|"REFERENCE"|"part"|"p_type"|191986|12911|605353|"TableScan Impl: ColumnVsValue p_type < 'ECONOMY BURNISHED'"|200000|13419|463426
+"c99cd411c3101d8b"|"DATA"|"part"|"p_brand"|200000|191986|878659|"TableScan Impl: ColumnVsValue p_brand != 'Brand#34'"|200000|191986|808884
+"c99cd411c3101d8b"|"REFERENCE"|"part"|"p_type"|191986|172721|1630967|"TableScan Impl: ColumnVsValue p_type >= 'ECONOMY BURNISHEE'"|200000|179947|872583
+"c99cd411c3101d8b"|"REFERENCE"|"supplier"|"s_comment"|10000|4|1542123|"TableScan Impl: ColumnLike s_comment LIKE '%Customer%Complaints%'"|10000|4|851350
+"9f3c5fc752625649"|"DATA"|"lineitem"|"l_shipdate"|6001215|77733|10550757|"TableScan Impl: ColumnBetween l_shipdate BETWEEN UPPER EXCLUSIVE '1998-01-01' AND '1998-02-01'"|6001215|77733|9414785
+"53505cf709d3dbda"|"REFERENCE"|"part"|"p_size"|185624|30055|5985779|"TableScan Impl: ExpressionEvaluator (p_size) IN (41, 10, 40, 50, 22, 20, 14, 7)"|200000|32355|3923304
+"53505cf709d3dbda"|"REFERENCE"|"part"|"p_type"|192082|140633|1731965|"TableScan Impl: ColumnVsValue p_type < 'SMALL BURNISHED'"|200000|146468|1178786
+"53505cf709d3dbda"|"DATA"|"part"|"p_brand"|200000|192082|822224|"TableScan Impl: ColumnVsValue p_brand != 'Brand#43'"|200000|192082|803994
+"53505cf709d3dbda"|"REFERENCE"|"part"|"p_type"|192082|44991|1163839|"TableScan Impl: ColumnVsValue p_type >= 'SMALL BURNISHEE'"|200000|46822|904851
+"53505cf709d3dbda"|"REFERENCE"|"supplier"|"s_comment"|10000|4|1541565|"TableScan Impl: ColumnLike s_comment LIKE '%Customer%Complaints%'"|10000|4|870557
+"f2b5e28bd4c3992d"|"REFERENCE"|"lineitem"|"l_shipmode"|913018|130474|5682788|"TableScan Impl: ColumnVsValue l_shipmode = 'SHIP'"|6001215|858036|21470718
+"f2b5e28bd4c3992d"|"DATA"|"lineitem"|"l_receiptdate"|6001215|913018|16685517|"TableScan Impl: ColumnBetween l_receiptdate BETWEEN UPPER EXCLUSIVE '1996-01-01' AND '1997-01-01'"|6001215|913018|18331642
+"f2b5e28bd4c3992d"|"REFERENCE"|"lineitem"|"l_shipmode"|913018|130695|4649142|"TableScan Impl: ColumnVsValue l_shipmode = 'AIR'"|6001215|858104|20638576
+"32c23f6f991a064d"|"REFERENCE"|"part"|"p_brand"|4934|209|94851|"TableScan Impl: ColumnVsValue p_brand = 'Brand#43'"|200000|7918|376817
+"32c23f6f991a064d"|"DATA"|"part"|"p_container"|200000|4934|317100|"TableScan Impl: ColumnVsValue p_container = 'WRAP PKG'"|200000|4934|331768
+"140261541ac6b6ba"|"DATA"|"part"|"p_name"|200000|2235|383453|"TableScan Impl: ColumnBetween p_name BETWEEN UPPER EXCLUSIVE 'seashell' AND 'seashelm'"|200000|2235|395956
+"efe8810009ceeca4"|"REFERENCE"|"part"|"p_brand"|4972|192|92476|"TableScan Impl: ColumnVsValue p_brand = 'Brand#22'"|200000|7978|370881
+"efe8810009ceeca4"|"DATA"|"part"|"p_container"|200000|4972|372138|"TableScan Impl: ColumnVsValue p_container = 'JUMBO CASE'"|200000|4972|291187
+"581025346a1e14fe"|"REFERENCE"|"part"|"p_brand"|4993|190|91009|"TableScan Impl: ColumnVsValue p_brand = 'Brand#54'"|200000|7938|343501
+"581025346a1e14fe"|"DATA"|"part"|"p_container"|200000|4993|336097|"TableScan Impl: ColumnVsValue p_container = 'SM PACK'"|200000|4993|290628
+"bc9c5b09f7327ee"|"REFERENCE"|"part"|"p_brand"|4992|176|91288|"TableScan Impl: ColumnVsValue p_brand = 'Brand#24'"|200000|7975|344479
+"bc9c5b09f7327ee"|"DATA"|"part"|"p_container"|200000|4992|341336|"TableScan Impl: ColumnVsValue p_container = 'SM PKG'"|200000|4992|289162
+"ca18c361736e9938"|"DATA"|"region"|"r_name"|5|1|24656|"TableScan Impl: ColumnVsValue r_name = 'EUROPE'"|5|1|15086
+"ca18c361736e9938"|"DATA"|"part"|"p_type"|200000|1219|234822|"TableScan Impl: ColumnVsValue p_type = 'LARGE POLISHED TIN'"|200000|1219|259057
+"3534234c34669919"|"DATA"|"part"|"p_name"|200000|2186|363337|"TableScan Impl: ColumnBetween p_name BETWEEN UPPER EXCLUSIVE 'floral' AND 'floram'"|200000|2186|334700
+"550d82dfc9e49105"|"REFERENCE"|"part"|"p_size"|777|70|45610|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 5"|200000|20271|639926
+"550d82dfc9e49105"|"REFERENCE"|"part"|"p_container"|8158|777|996139|"TableScan Impl: ExpressionEvaluator (p_container) IN ('SM CASE', 'SM BOX', 'SM PACK', 'SM PKG')"|200000|19906|23659823
+"550d82dfc9e49105"|"REFERENCE"|"part"|"p_brand"|200000|8158|614083|"TableScan Impl: ColumnVsValue p_brand = 'Brand#52'"|200000|8158|364665
+"550d82dfc9e49105"|"REFERENCE"|"part"|"p_size"|760|140|36669|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 10"|200000|40474|896749
+"550d82dfc9e49105"|"REFERENCE"|"part"|"p_container"|7991|760|849813|"TableScan Impl: ExpressionEvaluator (p_container) IN ('MED BAG', 'MED BOX', 'MED PKG', 'MED PACK')"|200000|19986|23046368
+"550d82dfc9e49105"|"REFERENCE"|"part"|"p_brand"|200000|7991|499466|"TableScan Impl: ColumnVsValue p_brand = 'Brand#21'"|200000|7991|344619
+"550d82dfc9e49105"|"REFERENCE"|"part"|"p_size"|855|246|38275|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 15"|200000|60513|1175504
+"550d82dfc9e49105"|"REFERENCE"|"part"|"p_container"|7908|855|831374|"TableScan Impl: ExpressionEvaluator (p_container) IN ('LG CASE', 'LG BOX', 'LG PACK', 'LG PKG')"|200000|20080|22295666
+"550d82dfc9e49105"|"REFERENCE"|"part"|"p_brand"|200000|7908|491365|"TableScan Impl: ColumnVsValue p_brand = 'Brand#42'"|200000|7908|345457
+"3c13b8ba3d206f05"|"REFERENCE"|"part"|"p_size"|796|67|37088|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 5"|200000|20271|621208
+"3c13b8ba3d206f05"|"REFERENCE"|"part"|"p_container"|7978|796|900312|"TableScan Impl: ExpressionEvaluator (p_container) IN ('SM CASE', 'SM BOX', 'SM PACK', 'SM PKG')"|200000|19906|22379970
+"3c13b8ba3d206f05"|"REFERENCE"|"part"|"p_brand"|200000|7978|548149|"TableScan Impl: ColumnVsValue p_brand = 'Brand#22'"|200000|7978|349368
+"3c13b8ba3d206f05"|"REFERENCE"|"part"|"p_size"|802|151|35761|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 10"|200000|40474|885783
+"3c13b8ba3d206f05"|"REFERENCE"|"part"|"p_container"|8141|802|866855|"TableScan Impl: ExpressionEvaluator (p_container) IN ('MED BAG', 'MED BOX', 'MED PKG', 'MED PACK')"|200000|19986|22812315
+"3c13b8ba3d206f05"|"REFERENCE"|"part"|"p_brand"|200000|8141|530548|"TableScan Impl: ColumnVsValue p_brand = 'Brand#33'"|200000|8141|347413
+"3c13b8ba3d206f05"|"REFERENCE"|"part"|"p_size"|792|236|39602|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 15"|200000|60513|1185213
+"3c13b8ba3d206f05"|"REFERENCE"|"part"|"p_container"|7978|792|820967|"TableScan Impl: ExpressionEvaluator (p_container) IN ('LG CASE', 'LG BOX', 'LG PACK', 'LG PKG')"|200000|20080|22511699
+"3c13b8ba3d206f05"|"REFERENCE"|"part"|"p_brand"|200000|7978|491714|"TableScan Impl: ColumnVsValue p_brand = 'Brand#45'"|200000|7978|343292
+"a77f146ed65d1660"|"DATA"|"part"|"p_name"|200000|2094|560232|"TableScan Impl: ColumnBetween p_name BETWEEN UPPER EXCLUSIVE 'lawn' AND 'lawo'"|200000|2094|330021
+"a77f146ed65d1660"|"DATA"|"nation"|"n_name"|25|1|22630|"TableScan Impl: ColumnVsValue n_name = 'ARGENTINA'"|25|1|14319
+"65e8223a5ee91fb8"|"REFERENCE"|"part"|"p_size"|780|79|37647|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 5"|200000|20271|597321
+"65e8223a5ee91fb8"|"REFERENCE"|"part"|"p_container"|7918|780|945502|"TableScan Impl: ExpressionEvaluator (p_container) IN ('SM CASE', 'SM BOX', 'SM PACK', 'SM PKG')"|200000|19906|22491234
+"65e8223a5ee91fb8"|"REFERENCE"|"part"|"p_brand"|200000|7918|524751|"TableScan Impl: ColumnVsValue p_brand = 'Brand#43'"|200000|7918|341685
+"65e8223a5ee91fb8"|"REFERENCE"|"part"|"p_size"|812|159|37857|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 10"|200000|40474|887181
+"65e8223a5ee91fb8"|"REFERENCE"|"part"|"p_container"|7938|812|857776|"TableScan Impl: ExpressionEvaluator (p_container) IN ('MED BAG', 'MED BOX', 'MED PKG', 'MED PACK')"|200000|19986|23301724
+"65e8223a5ee91fb8"|"REFERENCE"|"part"|"p_brand"|200000|7938|490457|"TableScan Impl: ColumnVsValue p_brand = 'Brand#54'"|200000|7938|343990
+"65e8223a5ee91fb8"|"REFERENCE"|"part"|"p_size"|818|263|36739|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 15"|200000|60513|1175503
+"65e8223a5ee91fb8"|"REFERENCE"|"part"|"p_container"|8158|818|858963|"TableScan Impl: ExpressionEvaluator (p_container) IN ('LG CASE', 'LG BOX', 'LG PACK', 'LG PKG')"|200000|20080|22579868
+"65e8223a5ee91fb8"|"REFERENCE"|"part"|"p_brand"|200000|8158|500514|"TableScan Impl: ColumnVsValue p_brand = 'Brand#52'"|200000|8158|363547
+"a61d21fbe175bdf5"|"REFERENCE"|"part"|"p_size"|185517|29537|6010923|"TableScan Impl: ExpressionEvaluator (p_size) IN (41, 33, 46, 6, 8, 27, 1, 17)"|200000|31757|3901653
+"a61d21fbe175bdf5"|"REFERENCE"|"part"|"p_type"|191859|114800|1845533|"TableScan Impl: ColumnVsValue p_type < 'PROMO PLATED'"|200000|119616|1432117
+"a61d21fbe175bdf5"|"DATA"|"part"|"p_brand"|200000|191859|792749|"TableScan Impl: ColumnVsValue p_brand != 'Brand#33'"|200000|191859|918192
+"a61d21fbe175bdf5"|"REFERENCE"|"part"|"p_type"|191859|70717|1539610|"TableScan Impl: ColumnVsValue p_type >= 'PROMO PLATEE'"|200000|73743|1230612
+"a61d21fbe175bdf5"|"REFERENCE"|"supplier"|"s_comment"|10000|4|1544988|"TableScan Impl: ColumnLike s_comment LIKE '%Customer%Complaints%'"|10000|4|1585079
+"af04794535660bfb"|"REFERENCE"|"part"|"p_size"|817|92|41349|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 5"|200000|20271|595086
+"af04794535660bfb"|"REFERENCE"|"part"|"p_container"|7989|817|926503|"TableScan Impl: ExpressionEvaluator (p_container) IN ('SM CASE', 'SM BOX', 'SM PACK', 'SM PKG')"|200000|19906|22429979
+"af04794535660bfb"|"REFERENCE"|"part"|"p_brand"|200000|7989|530618|"TableScan Impl: ColumnVsValue p_brand = 'Brand#13'"|200000|7989|364245
+"af04794535660bfb"|"REFERENCE"|"part"|"p_size"|774|148|33736|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 10"|200000|40474|888578
+"af04794535660bfb"|"REFERENCE"|"part"|"p_container"|7822|774|852257|"TableScan Impl: ExpressionEvaluator (p_container) IN ('MED BAG', 'MED BOX', 'MED PKG', 'MED PACK')"|200000|19986|22883627
+"af04794535660bfb"|"REFERENCE"|"part"|"p_brand"|200000|7822|495905|"TableScan Impl: ColumnVsValue p_brand = 'Brand#25'"|200000|7822|341475
+"af04794535660bfb"|"REFERENCE"|"part"|"p_size"|810|251|37787|"TableScan Impl: ColumnBetween p_size BETWEEN INCLUSIVE 1 AND 15"|200000|60513|1154620
+"af04794535660bfb"|"REFERENCE"|"part"|"p_container"|7938|810|822294|"TableScan Impl: ExpressionEvaluator (p_container) IN ('LG CASE', 'LG BOX', 'LG PACK', 'LG PKG')"|200000|20080|22567854
+"af04794535660bfb"|"REFERENCE"|"part"|"p_brand"|200000|7938|491155|"TableScan Impl: ColumnVsValue p_brand = 'Brand#54'"|200000|7938|343920
