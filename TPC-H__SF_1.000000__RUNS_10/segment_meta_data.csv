@@ -38,7 +38,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|0|12|"l_receiptdate"|"string"|2531|"Dictionary"|"FixedSize2ByteAligned"|232398
 "lineitem"|0|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|0|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|0|15|"l_comment"|"string"|63751|"Dictionary"|"FixedSize2ByteAligned"|4328731
+"lineitem"|0|15|"l_comment"|"string"|63751|"Dictionary"|"FixedSize2ByteAligned"|4327709
 "lineitem"|1|0|"l_orderkey"|"int"|16287|"Dictionary"|"FixedSize2ByteAligned"|196274
 "lineitem"|1|1|"l_partkey"|"int"|55730|"Dictionary"|"FixedSize2ByteAligned"|354046
 "lineitem"|1|2|"l_suppkey"|"int"|9980|"Dictionary"|"FixedSize2ByteAligned"|171046
@@ -54,7 +54,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|1|12|"l_receiptdate"|"string"|2523|"Dictionary"|"FixedSize2ByteAligned"|232078
 "lineitem"|1|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|1|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|1|15|"l_comment"|"string"|63662|"Dictionary"|"FixedSize2ByteAligned"|4320490
+"lineitem"|1|15|"l_comment"|"string"|63662|"Dictionary"|"FixedSize2ByteAligned"|4319553
 "lineitem"|2|0|"l_orderkey"|"int"|16428|"Dictionary"|"FixedSize2ByteAligned"|196838
 "lineitem"|2|1|"l_partkey"|"int"|56000|"Dictionary"|"FixedSize2ByteAligned"|355126
 "lineitem"|2|2|"l_suppkey"|"int"|9981|"Dictionary"|"FixedSize2ByteAligned"|171050
@@ -70,7 +70,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|2|12|"l_receiptdate"|"string"|2528|"Dictionary"|"FixedSize2ByteAligned"|232278
 "lineitem"|2|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|2|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|2|15|"l_comment"|"string"|63817|"Dictionary"|"FixedSize2ByteAligned"|4323199
+"lineitem"|2|15|"l_comment"|"string"|63817|"Dictionary"|"FixedSize2ByteAligned"|4322132
 "lineitem"|3|0|"l_orderkey"|"int"|16439|"Dictionary"|"FixedSize2ByteAligned"|196882
 "lineitem"|3|1|"l_partkey"|"int"|55930|"Dictionary"|"FixedSize2ByteAligned"|354846
 "lineitem"|3|2|"l_suppkey"|"int"|9993|"Dictionary"|"FixedSize2ByteAligned"|171098
@@ -86,7 +86,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|3|12|"l_receiptdate"|"string"|2528|"Dictionary"|"FixedSize2ByteAligned"|232278
 "lineitem"|3|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|3|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|3|15|"l_comment"|"string"|63744|"Dictionary"|"FixedSize2ByteAligned"|4325338
+"lineitem"|3|15|"l_comment"|"string"|63744|"Dictionary"|"FixedSize2ByteAligned"|4324195
 "lineitem"|4|0|"l_orderkey"|"int"|16440|"Dictionary"|"FixedSize2ByteAligned"|196886
 "lineitem"|4|1|"l_partkey"|"int"|55844|"Dictionary"|"FixedSize2ByteAligned"|354502
 "lineitem"|4|2|"l_suppkey"|"int"|9989|"Dictionary"|"FixedSize2ByteAligned"|171082
@@ -102,7 +102,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|4|12|"l_receiptdate"|"string"|2530|"Dictionary"|"FixedSize2ByteAligned"|232358
 "lineitem"|4|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|4|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|4|15|"l_comment"|"string"|63824|"Dictionary"|"FixedSize2ByteAligned"|4324496
+"lineitem"|4|15|"l_comment"|"string"|63824|"Dictionary"|"FixedSize2ByteAligned"|4323709
 "lineitem"|5|0|"l_orderkey"|"int"|16369|"Dictionary"|"FixedSize2ByteAligned"|196602
 "lineitem"|5|1|"l_partkey"|"int"|55769|"Dictionary"|"FixedSize2ByteAligned"|354202
 "lineitem"|5|2|"l_suppkey"|"int"|9991|"Dictionary"|"FixedSize2ByteAligned"|171090
@@ -118,7 +118,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|5|12|"l_receiptdate"|"string"|2528|"Dictionary"|"FixedSize2ByteAligned"|232278
 "lineitem"|5|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|5|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|5|15|"l_comment"|"string"|63759|"Dictionary"|"FixedSize2ByteAligned"|4323636
+"lineitem"|5|15|"l_comment"|"string"|63759|"Dictionary"|"FixedSize2ByteAligned"|4322893
 "lineitem"|6|0|"l_orderkey"|"int"|16360|"Dictionary"|"FixedSize2ByteAligned"|196566
 "lineitem"|6|1|"l_partkey"|"int"|55753|"Dictionary"|"FixedSize2ByteAligned"|354138
 "lineitem"|6|2|"l_suppkey"|"int"|9987|"Dictionary"|"FixedSize2ByteAligned"|171074
@@ -134,7 +134,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|6|12|"l_receiptdate"|"string"|2531|"Dictionary"|"FixedSize2ByteAligned"|232398
 "lineitem"|6|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|6|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|6|15|"l_comment"|"string"|63761|"Dictionary"|"FixedSize2ByteAligned"|4322339
+"lineitem"|6|15|"l_comment"|"string"|63761|"Dictionary"|"FixedSize2ByteAligned"|4321414
 "lineitem"|7|0|"l_orderkey"|"int"|16256|"Dictionary"|"FixedSize2ByteAligned"|196150
 "lineitem"|7|1|"l_partkey"|"int"|55745|"Dictionary"|"FixedSize2ByteAligned"|354106
 "lineitem"|7|2|"l_suppkey"|"int"|9982|"Dictionary"|"FixedSize2ByteAligned"|171054
@@ -150,7 +150,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|7|12|"l_receiptdate"|"string"|2531|"Dictionary"|"FixedSize2ByteAligned"|232398
 "lineitem"|7|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|7|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|7|15|"l_comment"|"string"|63718|"Dictionary"|"FixedSize2ByteAligned"|4321465
+"lineitem"|7|15|"l_comment"|"string"|63718|"Dictionary"|"FixedSize2ByteAligned"|4320462
 "lineitem"|8|0|"l_orderkey"|"int"|16420|"Dictionary"|"FixedSize2ByteAligned"|196806
 "lineitem"|8|1|"l_partkey"|"int"|55731|"Dictionary"|"FixedSize2ByteAligned"|354050
 "lineitem"|8|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -166,7 +166,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|8|12|"l_receiptdate"|"string"|2525|"Dictionary"|"FixedSize2ByteAligned"|232158
 "lineitem"|8|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|8|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|8|15|"l_comment"|"string"|63756|"Dictionary"|"FixedSize2ByteAligned"|4322066
+"lineitem"|8|15|"l_comment"|"string"|63756|"Dictionary"|"FixedSize2ByteAligned"|4321177
 "lineitem"|9|0|"l_orderkey"|"int"|16424|"Dictionary"|"FixedSize2ByteAligned"|196822
 "lineitem"|9|1|"l_partkey"|"int"|55855|"Dictionary"|"FixedSize2ByteAligned"|354546
 "lineitem"|9|2|"l_suppkey"|"int"|9985|"Dictionary"|"FixedSize2ByteAligned"|171066
@@ -182,7 +182,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|9|12|"l_receiptdate"|"string"|2530|"Dictionary"|"FixedSize2ByteAligned"|232358
 "lineitem"|9|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|9|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|9|15|"l_comment"|"string"|63735|"Dictionary"|"FixedSize2ByteAligned"|4327300
+"lineitem"|9|15|"l_comment"|"string"|63735|"Dictionary"|"FixedSize2ByteAligned"|4326231
 "lineitem"|10|0|"l_orderkey"|"int"|16348|"Dictionary"|"FixedSize2ByteAligned"|196518
 "lineitem"|10|1|"l_partkey"|"int"|55807|"Dictionary"|"FixedSize2ByteAligned"|354354
 "lineitem"|10|2|"l_suppkey"|"int"|9991|"Dictionary"|"FixedSize2ByteAligned"|171090
@@ -198,7 +198,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|10|12|"l_receiptdate"|"string"|2533|"Dictionary"|"FixedSize2ByteAligned"|232478
 "lineitem"|10|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|10|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|10|15|"l_comment"|"string"|63815|"Dictionary"|"FixedSize2ByteAligned"|4328761
+"lineitem"|10|15|"l_comment"|"string"|63815|"Dictionary"|"FixedSize2ByteAligned"|4327798
 "lineitem"|11|0|"l_orderkey"|"int"|16325|"Dictionary"|"FixedSize2ByteAligned"|196426
 "lineitem"|11|1|"l_partkey"|"int"|55969|"Dictionary"|"FixedSize2ByteAligned"|355002
 "lineitem"|11|2|"l_suppkey"|"int"|9988|"Dictionary"|"FixedSize2ByteAligned"|171078
@@ -214,7 +214,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|11|12|"l_receiptdate"|"string"|2531|"Dictionary"|"FixedSize2ByteAligned"|232398
 "lineitem"|11|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|11|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|11|15|"l_comment"|"string"|63708|"Dictionary"|"FixedSize2ByteAligned"|4316693
+"lineitem"|11|15|"l_comment"|"string"|63708|"Dictionary"|"FixedSize2ByteAligned"|4315777
 "lineitem"|12|0|"l_orderkey"|"int"|16474|"Dictionary"|"FixedSize2ByteAligned"|197022
 "lineitem"|12|1|"l_partkey"|"int"|55892|"Dictionary"|"FixedSize2ByteAligned"|354694
 "lineitem"|12|2|"l_suppkey"|"int"|9988|"Dictionary"|"FixedSize2ByteAligned"|171078
@@ -230,7 +230,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|12|12|"l_receiptdate"|"string"|2524|"Dictionary"|"FixedSize2ByteAligned"|232118
 "lineitem"|12|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|12|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|12|15|"l_comment"|"string"|63768|"Dictionary"|"FixedSize2ByteAligned"|4322036
+"lineitem"|12|15|"l_comment"|"string"|63768|"Dictionary"|"FixedSize2ByteAligned"|4321152
 "lineitem"|13|0|"l_orderkey"|"int"|16383|"Dictionary"|"FixedSize2ByteAligned"|196658
 "lineitem"|13|1|"l_partkey"|"int"|55870|"Dictionary"|"FixedSize2ByteAligned"|354606
 "lineitem"|13|2|"l_suppkey"|"int"|9985|"Dictionary"|"FixedSize2ByteAligned"|171066
@@ -246,7 +246,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|13|12|"l_receiptdate"|"string"|2526|"Dictionary"|"FixedSize2ByteAligned"|232198
 "lineitem"|13|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|13|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|13|15|"l_comment"|"string"|63740|"Dictionary"|"FixedSize2ByteAligned"|4320979
+"lineitem"|13|15|"l_comment"|"string"|63740|"Dictionary"|"FixedSize2ByteAligned"|4319953
 "lineitem"|14|0|"l_orderkey"|"int"|16385|"Dictionary"|"FixedSize2ByteAligned"|196666
 "lineitem"|14|1|"l_partkey"|"int"|56058|"Dictionary"|"FixedSize2ByteAligned"|355358
 "lineitem"|14|2|"l_suppkey"|"int"|9982|"Dictionary"|"FixedSize2ByteAligned"|171054
@@ -262,7 +262,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|14|12|"l_receiptdate"|"string"|2526|"Dictionary"|"FixedSize2ByteAligned"|232198
 "lineitem"|14|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|14|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|14|15|"l_comment"|"string"|63723|"Dictionary"|"FixedSize2ByteAligned"|4321103
+"lineitem"|14|15|"l_comment"|"string"|63723|"Dictionary"|"FixedSize2ByteAligned"|4319881
 "lineitem"|15|0|"l_orderkey"|"int"|16446|"Dictionary"|"FixedSize2ByteAligned"|196910
 "lineitem"|15|1|"l_partkey"|"int"|55918|"Dictionary"|"FixedSize2ByteAligned"|354798
 "lineitem"|15|2|"l_suppkey"|"int"|9991|"Dictionary"|"FixedSize2ByteAligned"|171090
@@ -278,7 +278,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|15|12|"l_receiptdate"|"string"|2529|"Dictionary"|"FixedSize2ByteAligned"|232318
 "lineitem"|15|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|15|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|15|15|"l_comment"|"string"|63743|"Dictionary"|"FixedSize2ByteAligned"|4320490
+"lineitem"|15|15|"l_comment"|"string"|63743|"Dictionary"|"FixedSize2ByteAligned"|4319408
 "lineitem"|16|0|"l_orderkey"|"int"|16431|"Dictionary"|"FixedSize2ByteAligned"|196850
 "lineitem"|16|1|"l_partkey"|"int"|55816|"Dictionary"|"FixedSize2ByteAligned"|354390
 "lineitem"|16|2|"l_suppkey"|"int"|9984|"Dictionary"|"FixedSize2ByteAligned"|171062
@@ -294,7 +294,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|16|12|"l_receiptdate"|"string"|2527|"Dictionary"|"FixedSize2ByteAligned"|232238
 "lineitem"|16|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|16|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|16|15|"l_comment"|"string"|63693|"Dictionary"|"FixedSize2ByteAligned"|4316830
+"lineitem"|16|15|"l_comment"|"string"|63693|"Dictionary"|"FixedSize2ByteAligned"|4315931
 "lineitem"|17|0|"l_orderkey"|"int"|16401|"Dictionary"|"FixedSize2ByteAligned"|196730
 "lineitem"|17|1|"l_partkey"|"int"|55911|"Dictionary"|"FixedSize2ByteAligned"|354770
 "lineitem"|17|2|"l_suppkey"|"int"|9982|"Dictionary"|"FixedSize2ByteAligned"|171054
@@ -310,7 +310,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|17|12|"l_receiptdate"|"string"|2530|"Dictionary"|"FixedSize2ByteAligned"|232358
 "lineitem"|17|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|17|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|17|15|"l_comment"|"string"|63713|"Dictionary"|"FixedSize2ByteAligned"|4312194
+"lineitem"|17|15|"l_comment"|"string"|63713|"Dictionary"|"FixedSize2ByteAligned"|4311159
 "lineitem"|18|0|"l_orderkey"|"int"|16363|"Dictionary"|"FixedSize2ByteAligned"|196578
 "lineitem"|18|1|"l_partkey"|"int"|55759|"Dictionary"|"FixedSize2ByteAligned"|354162
 "lineitem"|18|2|"l_suppkey"|"int"|9990|"Dictionary"|"FixedSize2ByteAligned"|171086
@@ -326,7 +326,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|18|12|"l_receiptdate"|"string"|2529|"Dictionary"|"FixedSize2ByteAligned"|232318
 "lineitem"|18|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|18|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|18|15|"l_comment"|"string"|63779|"Dictionary"|"FixedSize2ByteAligned"|4319946
+"lineitem"|18|15|"l_comment"|"string"|63779|"Dictionary"|"FixedSize2ByteAligned"|4318966
 "lineitem"|19|0|"l_orderkey"|"int"|16359|"Dictionary"|"FixedSize2ByteAligned"|196562
 "lineitem"|19|1|"l_partkey"|"int"|55901|"Dictionary"|"FixedSize2ByteAligned"|354730
 "lineitem"|19|2|"l_suppkey"|"int"|9988|"Dictionary"|"FixedSize2ByteAligned"|171078
@@ -342,7 +342,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|19|12|"l_receiptdate"|"string"|2528|"Dictionary"|"FixedSize2ByteAligned"|232278
 "lineitem"|19|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|19|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|19|15|"l_comment"|"string"|63668|"Dictionary"|"FixedSize2ByteAligned"|4323897
+"lineitem"|19|15|"l_comment"|"string"|63668|"Dictionary"|"FixedSize2ByteAligned"|4322771
 "lineitem"|20|0|"l_orderkey"|"int"|16324|"Dictionary"|"FixedSize2ByteAligned"|196422
 "lineitem"|20|1|"l_partkey"|"int"|55873|"Dictionary"|"FixedSize2ByteAligned"|354618
 "lineitem"|20|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -358,7 +358,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|20|12|"l_receiptdate"|"string"|2532|"Dictionary"|"FixedSize2ByteAligned"|232438
 "lineitem"|20|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|20|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|20|15|"l_comment"|"string"|63682|"Dictionary"|"FixedSize2ByteAligned"|4319226
+"lineitem"|20|15|"l_comment"|"string"|63682|"Dictionary"|"FixedSize2ByteAligned"|4318270
 "lineitem"|21|0|"l_orderkey"|"int"|16379|"Dictionary"|"FixedSize2ByteAligned"|196642
 "lineitem"|21|1|"l_partkey"|"int"|55858|"Dictionary"|"FixedSize2ByteAligned"|354558
 "lineitem"|21|2|"l_suppkey"|"int"|9989|"Dictionary"|"FixedSize2ByteAligned"|171082
@@ -374,7 +374,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|21|12|"l_receiptdate"|"string"|2530|"Dictionary"|"FixedSize2ByteAligned"|232358
 "lineitem"|21|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|21|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|21|15|"l_comment"|"string"|63641|"Dictionary"|"FixedSize2ByteAligned"|4313637
+"lineitem"|21|15|"l_comment"|"string"|63641|"Dictionary"|"FixedSize2ByteAligned"|4312487
 "lineitem"|22|0|"l_orderkey"|"int"|16600|"Dictionary"|"FixedSize2ByteAligned"|197526
 "lineitem"|22|1|"l_partkey"|"int"|55812|"Dictionary"|"FixedSize2ByteAligned"|354374
 "lineitem"|22|2|"l_suppkey"|"int"|9988|"Dictionary"|"FixedSize2ByteAligned"|171078
@@ -390,7 +390,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|22|12|"l_receiptdate"|"string"|2524|"Dictionary"|"FixedSize2ByteAligned"|232118
 "lineitem"|22|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|22|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|22|15|"l_comment"|"string"|63769|"Dictionary"|"FixedSize2ByteAligned"|4320200
+"lineitem"|22|15|"l_comment"|"string"|63769|"Dictionary"|"FixedSize2ByteAligned"|4319214
 "lineitem"|23|0|"l_orderkey"|"int"|16324|"Dictionary"|"FixedSize2ByteAligned"|196422
 "lineitem"|23|1|"l_partkey"|"int"|55902|"Dictionary"|"FixedSize2ByteAligned"|354734
 "lineitem"|23|2|"l_suppkey"|"int"|9985|"Dictionary"|"FixedSize2ByteAligned"|171066
@@ -406,7 +406,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|23|12|"l_receiptdate"|"string"|2531|"Dictionary"|"FixedSize2ByteAligned"|232398
 "lineitem"|23|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|23|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|23|15|"l_comment"|"string"|63727|"Dictionary"|"FixedSize2ByteAligned"|4318211
+"lineitem"|23|15|"l_comment"|"string"|63727|"Dictionary"|"FixedSize2ByteAligned"|4317439
 "lineitem"|24|0|"l_orderkey"|"int"|16321|"Dictionary"|"FixedSize2ByteAligned"|196410
 "lineitem"|24|1|"l_partkey"|"int"|55971|"Dictionary"|"FixedSize2ByteAligned"|355010
 "lineitem"|24|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -422,7 +422,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|24|12|"l_receiptdate"|"string"|2520|"Dictionary"|"FixedSize2ByteAligned"|231958
 "lineitem"|24|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|24|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|24|15|"l_comment"|"string"|63723|"Dictionary"|"FixedSize2ByteAligned"|4323308
+"lineitem"|24|15|"l_comment"|"string"|63723|"Dictionary"|"FixedSize2ByteAligned"|4322289
 "lineitem"|25|0|"l_orderkey"|"int"|16318|"Dictionary"|"FixedSize2ByteAligned"|196398
 "lineitem"|25|1|"l_partkey"|"int"|56039|"Dictionary"|"FixedSize2ByteAligned"|355282
 "lineitem"|25|2|"l_suppkey"|"int"|9983|"Dictionary"|"FixedSize2ByteAligned"|171058
@@ -438,7 +438,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|25|12|"l_receiptdate"|"string"|2527|"Dictionary"|"FixedSize2ByteAligned"|232238
 "lineitem"|25|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|25|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|25|15|"l_comment"|"string"|63744|"Dictionary"|"FixedSize2ByteAligned"|4316737
+"lineitem"|25|15|"l_comment"|"string"|63744|"Dictionary"|"FixedSize2ByteAligned"|4315727
 "lineitem"|26|0|"l_orderkey"|"int"|16460|"Dictionary"|"FixedSize2ByteAligned"|196966
 "lineitem"|26|1|"l_partkey"|"int"|55882|"Dictionary"|"FixedSize2ByteAligned"|354654
 "lineitem"|26|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -454,7 +454,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|26|12|"l_receiptdate"|"string"|2527|"Dictionary"|"FixedSize2ByteAligned"|232238
 "lineitem"|26|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|26|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|26|15|"l_comment"|"string"|63725|"Dictionary"|"FixedSize2ByteAligned"|4322781
+"lineitem"|26|15|"l_comment"|"string"|63725|"Dictionary"|"FixedSize2ByteAligned"|4321806
 "lineitem"|27|0|"l_orderkey"|"int"|16333|"Dictionary"|"FixedSize2ByteAligned"|196458
 "lineitem"|27|1|"l_partkey"|"int"|55895|"Dictionary"|"FixedSize2ByteAligned"|354706
 "lineitem"|27|2|"l_suppkey"|"int"|9983|"Dictionary"|"FixedSize2ByteAligned"|171058
@@ -470,7 +470,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|27|12|"l_receiptdate"|"string"|2531|"Dictionary"|"FixedSize2ByteAligned"|232398
 "lineitem"|27|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|27|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|27|15|"l_comment"|"string"|63715|"Dictionary"|"FixedSize2ByteAligned"|4321126
+"lineitem"|27|15|"l_comment"|"string"|63715|"Dictionary"|"FixedSize2ByteAligned"|4319902
 "lineitem"|28|0|"l_orderkey"|"int"|16290|"Dictionary"|"FixedSize2ByteAligned"|196286
 "lineitem"|28|1|"l_partkey"|"int"|55901|"Dictionary"|"FixedSize2ByteAligned"|354730
 "lineitem"|28|2|"l_suppkey"|"int"|9982|"Dictionary"|"FixedSize2ByteAligned"|171054
@@ -486,7 +486,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|28|12|"l_receiptdate"|"string"|2527|"Dictionary"|"FixedSize2ByteAligned"|232238
 "lineitem"|28|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|28|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|28|15|"l_comment"|"string"|63703|"Dictionary"|"FixedSize2ByteAligned"|4321731
+"lineitem"|28|15|"l_comment"|"string"|63703|"Dictionary"|"FixedSize2ByteAligned"|4320742
 "lineitem"|29|0|"l_orderkey"|"int"|16365|"Dictionary"|"FixedSize2ByteAligned"|196586
 "lineitem"|29|1|"l_partkey"|"int"|55847|"Dictionary"|"FixedSize2ByteAligned"|354514
 "lineitem"|29|2|"l_suppkey"|"int"|9977|"Dictionary"|"FixedSize2ByteAligned"|171034
@@ -502,7 +502,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|29|12|"l_receiptdate"|"string"|2524|"Dictionary"|"FixedSize2ByteAligned"|232118
 "lineitem"|29|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|29|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|29|15|"l_comment"|"string"|63722|"Dictionary"|"FixedSize2ByteAligned"|4321844
+"lineitem"|29|15|"l_comment"|"string"|63722|"Dictionary"|"FixedSize2ByteAligned"|4321024
 "lineitem"|30|0|"l_orderkey"|"int"|16458|"Dictionary"|"FixedSize2ByteAligned"|196958
 "lineitem"|30|1|"l_partkey"|"int"|55819|"Dictionary"|"FixedSize2ByteAligned"|354402
 "lineitem"|30|2|"l_suppkey"|"int"|9983|"Dictionary"|"FixedSize2ByteAligned"|171058
@@ -518,7 +518,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|30|12|"l_receiptdate"|"string"|2523|"Dictionary"|"FixedSize2ByteAligned"|232078
 "lineitem"|30|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|30|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|30|15|"l_comment"|"string"|63729|"Dictionary"|"FixedSize2ByteAligned"|4319337
+"lineitem"|30|15|"l_comment"|"string"|63729|"Dictionary"|"FixedSize2ByteAligned"|4318130
 "lineitem"|31|0|"l_orderkey"|"int"|16359|"Dictionary"|"FixedSize2ByteAligned"|196562
 "lineitem"|31|1|"l_partkey"|"int"|55912|"Dictionary"|"FixedSize2ByteAligned"|354774
 "lineitem"|31|2|"l_suppkey"|"int"|9983|"Dictionary"|"FixedSize2ByteAligned"|171058
@@ -534,7 +534,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|31|12|"l_receiptdate"|"string"|2524|"Dictionary"|"FixedSize2ByteAligned"|232118
 "lineitem"|31|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|31|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|31|15|"l_comment"|"string"|63765|"Dictionary"|"FixedSize2ByteAligned"|4318674
+"lineitem"|31|15|"l_comment"|"string"|63765|"Dictionary"|"FixedSize2ByteAligned"|4317890
 "lineitem"|32|0|"l_orderkey"|"int"|16444|"Dictionary"|"FixedSize2ByteAligned"|196902
 "lineitem"|32|1|"l_partkey"|"int"|55851|"Dictionary"|"FixedSize2ByteAligned"|354530
 "lineitem"|32|2|"l_suppkey"|"int"|9980|"Dictionary"|"FixedSize2ByteAligned"|171046
@@ -550,7 +550,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|32|12|"l_receiptdate"|"string"|2533|"Dictionary"|"FixedSize2ByteAligned"|232478
 "lineitem"|32|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|32|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|32|15|"l_comment"|"string"|63713|"Dictionary"|"FixedSize2ByteAligned"|4316758
+"lineitem"|32|15|"l_comment"|"string"|63713|"Dictionary"|"FixedSize2ByteAligned"|4315900
 "lineitem"|33|0|"l_orderkey"|"int"|16378|"Dictionary"|"FixedSize2ByteAligned"|196638
 "lineitem"|33|1|"l_partkey"|"int"|55825|"Dictionary"|"FixedSize2ByteAligned"|354426
 "lineitem"|33|2|"l_suppkey"|"int"|9980|"Dictionary"|"FixedSize2ByteAligned"|171046
@@ -566,7 +566,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|33|12|"l_receiptdate"|"string"|2528|"Dictionary"|"FixedSize2ByteAligned"|232278
 "lineitem"|33|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|33|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|33|15|"l_comment"|"string"|63712|"Dictionary"|"FixedSize2ByteAligned"|4321550
+"lineitem"|33|15|"l_comment"|"string"|63712|"Dictionary"|"FixedSize2ByteAligned"|4320638
 "lineitem"|34|0|"l_orderkey"|"int"|16445|"Dictionary"|"FixedSize2ByteAligned"|196906
 "lineitem"|34|1|"l_partkey"|"int"|55918|"Dictionary"|"FixedSize2ByteAligned"|354798
 "lineitem"|34|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -582,7 +582,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|34|12|"l_receiptdate"|"string"|2526|"Dictionary"|"FixedSize2ByteAligned"|232198
 "lineitem"|34|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|34|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|34|15|"l_comment"|"string"|63718|"Dictionary"|"FixedSize2ByteAligned"|4317937
+"lineitem"|34|15|"l_comment"|"string"|63718|"Dictionary"|"FixedSize2ByteAligned"|4316905
 "lineitem"|35|0|"l_orderkey"|"int"|16460|"Dictionary"|"FixedSize2ByteAligned"|196966
 "lineitem"|35|1|"l_partkey"|"int"|55933|"Dictionary"|"FixedSize2ByteAligned"|354858
 "lineitem"|35|2|"l_suppkey"|"int"|9987|"Dictionary"|"FixedSize2ByteAligned"|171074
@@ -598,7 +598,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|35|12|"l_receiptdate"|"string"|2526|"Dictionary"|"FixedSize2ByteAligned"|232198
 "lineitem"|35|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|35|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|35|15|"l_comment"|"string"|63718|"Dictionary"|"FixedSize2ByteAligned"|4318863
+"lineitem"|35|15|"l_comment"|"string"|63718|"Dictionary"|"FixedSize2ByteAligned"|4317789
 "lineitem"|36|0|"l_orderkey"|"int"|16305|"Dictionary"|"FixedSize2ByteAligned"|196346
 "lineitem"|36|1|"l_partkey"|"int"|55899|"Dictionary"|"FixedSize2ByteAligned"|354722
 "lineitem"|36|2|"l_suppkey"|"int"|9983|"Dictionary"|"FixedSize2ByteAligned"|171058
@@ -614,7 +614,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|36|12|"l_receiptdate"|"string"|2527|"Dictionary"|"FixedSize2ByteAligned"|232238
 "lineitem"|36|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|36|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|36|15|"l_comment"|"string"|63660|"Dictionary"|"FixedSize2ByteAligned"|4321335
+"lineitem"|36|15|"l_comment"|"string"|63660|"Dictionary"|"FixedSize2ByteAligned"|4320208
 "lineitem"|37|0|"l_orderkey"|"int"|16337|"Dictionary"|"FixedSize2ByteAligned"|196474
 "lineitem"|37|1|"l_partkey"|"int"|55968|"Dictionary"|"FixedSize2ByteAligned"|354998
 "lineitem"|37|2|"l_suppkey"|"int"|9979|"Dictionary"|"FixedSize2ByteAligned"|171042
@@ -630,7 +630,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|37|12|"l_receiptdate"|"string"|2528|"Dictionary"|"FixedSize2ByteAligned"|232278
 "lineitem"|37|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|37|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|37|15|"l_comment"|"string"|63799|"Dictionary"|"FixedSize2ByteAligned"|4328026
+"lineitem"|37|15|"l_comment"|"string"|63799|"Dictionary"|"FixedSize2ByteAligned"|4327029
 "lineitem"|38|0|"l_orderkey"|"int"|16367|"Dictionary"|"FixedSize2ByteAligned"|196594
 "lineitem"|38|1|"l_partkey"|"int"|55941|"Dictionary"|"FixedSize2ByteAligned"|354890
 "lineitem"|38|2|"l_suppkey"|"int"|9980|"Dictionary"|"FixedSize2ByteAligned"|171046
@@ -646,7 +646,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|38|12|"l_receiptdate"|"string"|2530|"Dictionary"|"FixedSize2ByteAligned"|232358
 "lineitem"|38|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|38|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|38|15|"l_comment"|"string"|63806|"Dictionary"|"FixedSize2ByteAligned"|4327034
+"lineitem"|38|15|"l_comment"|"string"|63806|"Dictionary"|"FixedSize2ByteAligned"|4325931
 "lineitem"|39|0|"l_orderkey"|"int"|16564|"Dictionary"|"FixedSize2ByteAligned"|197382
 "lineitem"|39|1|"l_partkey"|"int"|55806|"Dictionary"|"FixedSize2ByteAligned"|354350
 "lineitem"|39|2|"l_suppkey"|"int"|9980|"Dictionary"|"FixedSize2ByteAligned"|171046
@@ -662,7 +662,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|39|12|"l_receiptdate"|"string"|2522|"Dictionary"|"FixedSize2ByteAligned"|232038
 "lineitem"|39|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|39|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|39|15|"l_comment"|"string"|63806|"Dictionary"|"FixedSize2ByteAligned"|4333120
+"lineitem"|39|15|"l_comment"|"string"|63806|"Dictionary"|"FixedSize2ByteAligned"|4332165
 "lineitem"|40|0|"l_orderkey"|"int"|16450|"Dictionary"|"FixedSize2ByteAligned"|196926
 "lineitem"|40|1|"l_partkey"|"int"|55985|"Dictionary"|"FixedSize2ByteAligned"|355066
 "lineitem"|40|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -678,7 +678,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|40|12|"l_receiptdate"|"string"|2526|"Dictionary"|"FixedSize2ByteAligned"|232198
 "lineitem"|40|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|40|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|40|15|"l_comment"|"string"|63749|"Dictionary"|"FixedSize2ByteAligned"|4322533
+"lineitem"|40|15|"l_comment"|"string"|63749|"Dictionary"|"FixedSize2ByteAligned"|4321701
 "lineitem"|41|0|"l_orderkey"|"int"|16213|"Dictionary"|"FixedSize2ByteAligned"|195978
 "lineitem"|41|1|"l_partkey"|"int"|55994|"Dictionary"|"FixedSize2ByteAligned"|355102
 "lineitem"|41|2|"l_suppkey"|"int"|9988|"Dictionary"|"FixedSize2ByteAligned"|171078
@@ -694,7 +694,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|41|12|"l_receiptdate"|"string"|2532|"Dictionary"|"FixedSize2ByteAligned"|232438
 "lineitem"|41|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|41|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|41|15|"l_comment"|"string"|63733|"Dictionary"|"FixedSize2ByteAligned"|4319160
+"lineitem"|41|15|"l_comment"|"string"|63733|"Dictionary"|"FixedSize2ByteAligned"|4318278
 "lineitem"|42|0|"l_orderkey"|"int"|16367|"Dictionary"|"FixedSize2ByteAligned"|196594
 "lineitem"|42|1|"l_partkey"|"int"|55893|"Dictionary"|"FixedSize2ByteAligned"|354698
 "lineitem"|42|2|"l_suppkey"|"int"|9991|"Dictionary"|"FixedSize2ByteAligned"|171090
@@ -710,7 +710,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|42|12|"l_receiptdate"|"string"|2532|"Dictionary"|"FixedSize2ByteAligned"|232438
 "lineitem"|42|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|42|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|42|15|"l_comment"|"string"|63774|"Dictionary"|"FixedSize2ByteAligned"|4327374
+"lineitem"|42|15|"l_comment"|"string"|63774|"Dictionary"|"FixedSize2ByteAligned"|4326344
 "lineitem"|43|0|"l_orderkey"|"int"|16424|"Dictionary"|"FixedSize2ByteAligned"|196822
 "lineitem"|43|1|"l_partkey"|"int"|55871|"Dictionary"|"FixedSize2ByteAligned"|354610
 "lineitem"|43|2|"l_suppkey"|"int"|9991|"Dictionary"|"FixedSize2ByteAligned"|171090
@@ -726,7 +726,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|43|12|"l_receiptdate"|"string"|2528|"Dictionary"|"FixedSize2ByteAligned"|232278
 "lineitem"|43|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|43|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|43|15|"l_comment"|"string"|63708|"Dictionary"|"FixedSize2ByteAligned"|4317351
+"lineitem"|43|15|"l_comment"|"string"|63708|"Dictionary"|"FixedSize2ByteAligned"|4316496
 "lineitem"|44|0|"l_orderkey"|"int"|16366|"Dictionary"|"FixedSize2ByteAligned"|196590
 "lineitem"|44|1|"l_partkey"|"int"|55730|"Dictionary"|"FixedSize2ByteAligned"|354046
 "lineitem"|44|2|"l_suppkey"|"int"|9987|"Dictionary"|"FixedSize2ByteAligned"|171074
@@ -742,7 +742,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|44|12|"l_receiptdate"|"string"|2527|"Dictionary"|"FixedSize2ByteAligned"|232238
 "lineitem"|44|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|44|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|44|15|"l_comment"|"string"|63682|"Dictionary"|"FixedSize2ByteAligned"|4315066
+"lineitem"|44|15|"l_comment"|"string"|63682|"Dictionary"|"FixedSize2ByteAligned"|4314245
 "lineitem"|45|0|"l_orderkey"|"int"|16425|"Dictionary"|"FixedSize2ByteAligned"|196826
 "lineitem"|45|1|"l_partkey"|"int"|55935|"Dictionary"|"FixedSize2ByteAligned"|354866
 "lineitem"|45|2|"l_suppkey"|"int"|9990|"Dictionary"|"FixedSize2ByteAligned"|171086
@@ -758,7 +758,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|45|12|"l_receiptdate"|"string"|2529|"Dictionary"|"FixedSize2ByteAligned"|232318
 "lineitem"|45|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|45|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|45|15|"l_comment"|"string"|63710|"Dictionary"|"FixedSize2ByteAligned"|4319186
+"lineitem"|45|15|"l_comment"|"string"|63710|"Dictionary"|"FixedSize2ByteAligned"|4318059
 "lineitem"|46|0|"l_orderkey"|"int"|16370|"Dictionary"|"FixedSize2ByteAligned"|196606
 "lineitem"|46|1|"l_partkey"|"int"|55877|"Dictionary"|"FixedSize2ByteAligned"|354634
 "lineitem"|46|2|"l_suppkey"|"int"|9978|"Dictionary"|"FixedSize2ByteAligned"|171038
@@ -774,7 +774,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|46|12|"l_receiptdate"|"string"|2528|"Dictionary"|"FixedSize2ByteAligned"|232278
 "lineitem"|46|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|46|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|46|15|"l_comment"|"string"|63666|"Dictionary"|"FixedSize2ByteAligned"|4319762
+"lineitem"|46|15|"l_comment"|"string"|63666|"Dictionary"|"FixedSize2ByteAligned"|4318660
 "lineitem"|47|0|"l_orderkey"|"int"|16422|"Dictionary"|"FixedSize2ByteAligned"|196814
 "lineitem"|47|1|"l_partkey"|"int"|55769|"Dictionary"|"FixedSize2ByteAligned"|354202
 "lineitem"|47|2|"l_suppkey"|"int"|9987|"Dictionary"|"FixedSize2ByteAligned"|171074
@@ -790,7 +790,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|47|12|"l_receiptdate"|"string"|2527|"Dictionary"|"FixedSize2ByteAligned"|232238
 "lineitem"|47|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|47|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|47|15|"l_comment"|"string"|63683|"Dictionary"|"FixedSize2ByteAligned"|4319321
+"lineitem"|47|15|"l_comment"|"string"|63683|"Dictionary"|"FixedSize2ByteAligned"|4318330
 "lineitem"|48|0|"l_orderkey"|"int"|16353|"Dictionary"|"FixedSize2ByteAligned"|196538
 "lineitem"|48|1|"l_partkey"|"int"|55975|"Dictionary"|"FixedSize2ByteAligned"|355026
 "lineitem"|48|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -806,7 +806,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|48|12|"l_receiptdate"|"string"|2524|"Dictionary"|"FixedSize2ByteAligned"|232118
 "lineitem"|48|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|48|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|48|15|"l_comment"|"string"|63676|"Dictionary"|"FixedSize2ByteAligned"|4313307
+"lineitem"|48|15|"l_comment"|"string"|63676|"Dictionary"|"FixedSize2ByteAligned"|4312137
 "lineitem"|49|0|"l_orderkey"|"int"|16337|"Dictionary"|"FixedSize2ByteAligned"|196474
 "lineitem"|49|1|"l_partkey"|"int"|55826|"Dictionary"|"FixedSize2ByteAligned"|354430
 "lineitem"|49|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -822,7 +822,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|49|12|"l_receiptdate"|"string"|2529|"Dictionary"|"FixedSize2ByteAligned"|232318
 "lineitem"|49|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|49|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|49|15|"l_comment"|"string"|63757|"Dictionary"|"FixedSize2ByteAligned"|4324848
+"lineitem"|49|15|"l_comment"|"string"|63757|"Dictionary"|"FixedSize2ByteAligned"|4323908
 "lineitem"|50|0|"l_orderkey"|"int"|16382|"Dictionary"|"FixedSize2ByteAligned"|196654
 "lineitem"|50|1|"l_partkey"|"int"|55899|"Dictionary"|"FixedSize2ByteAligned"|354722
 "lineitem"|50|2|"l_suppkey"|"int"|9987|"Dictionary"|"FixedSize2ByteAligned"|171074
@@ -838,7 +838,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|50|12|"l_receiptdate"|"string"|2530|"Dictionary"|"FixedSize2ByteAligned"|232358
 "lineitem"|50|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|50|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|50|15|"l_comment"|"string"|63690|"Dictionary"|"FixedSize2ByteAligned"|4318711
+"lineitem"|50|15|"l_comment"|"string"|63690|"Dictionary"|"FixedSize2ByteAligned"|4317628
 "lineitem"|51|0|"l_orderkey"|"int"|16272|"Dictionary"|"FixedSize2ByteAligned"|196214
 "lineitem"|51|1|"l_partkey"|"int"|55866|"Dictionary"|"FixedSize2ByteAligned"|354590
 "lineitem"|51|2|"l_suppkey"|"int"|9983|"Dictionary"|"FixedSize2ByteAligned"|171058
@@ -854,7 +854,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|51|12|"l_receiptdate"|"string"|2527|"Dictionary"|"FixedSize2ByteAligned"|232238
 "lineitem"|51|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|51|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|51|15|"l_comment"|"string"|63765|"Dictionary"|"FixedSize2ByteAligned"|4318144
+"lineitem"|51|15|"l_comment"|"string"|63765|"Dictionary"|"FixedSize2ByteAligned"|4317238
 "lineitem"|52|0|"l_orderkey"|"int"|16411|"Dictionary"|"FixedSize2ByteAligned"|196770
 "lineitem"|52|1|"l_partkey"|"int"|55983|"Dictionary"|"FixedSize2ByteAligned"|355058
 "lineitem"|52|2|"l_suppkey"|"int"|9990|"Dictionary"|"FixedSize2ByteAligned"|171086
@@ -870,7 +870,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|52|12|"l_receiptdate"|"string"|2527|"Dictionary"|"FixedSize2ByteAligned"|232238
 "lineitem"|52|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|52|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|52|15|"l_comment"|"string"|63747|"Dictionary"|"FixedSize2ByteAligned"|4318715
+"lineitem"|52|15|"l_comment"|"string"|63747|"Dictionary"|"FixedSize2ByteAligned"|4317705
 "lineitem"|53|0|"l_orderkey"|"int"|16234|"Dictionary"|"FixedSize2ByteAligned"|196062
 "lineitem"|53|1|"l_partkey"|"int"|55964|"Dictionary"|"FixedSize2ByteAligned"|354982
 "lineitem"|53|2|"l_suppkey"|"int"|9983|"Dictionary"|"FixedSize2ByteAligned"|171058
@@ -886,7 +886,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|53|12|"l_receiptdate"|"string"|2530|"Dictionary"|"FixedSize2ByteAligned"|232358
 "lineitem"|53|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|53|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|53|15|"l_comment"|"string"|63733|"Dictionary"|"FixedSize2ByteAligned"|4313858
+"lineitem"|53|15|"l_comment"|"string"|63733|"Dictionary"|"FixedSize2ByteAligned"|4312831
 "lineitem"|54|0|"l_orderkey"|"int"|16349|"Dictionary"|"FixedSize2ByteAligned"|196522
 "lineitem"|54|1|"l_partkey"|"int"|55770|"Dictionary"|"FixedSize2ByteAligned"|354206
 "lineitem"|54|2|"l_suppkey"|"int"|9982|"Dictionary"|"FixedSize2ByteAligned"|171054
@@ -902,7 +902,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|54|12|"l_receiptdate"|"string"|2526|"Dictionary"|"FixedSize2ByteAligned"|232198
 "lineitem"|54|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|54|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|54|15|"l_comment"|"string"|63778|"Dictionary"|"FixedSize2ByteAligned"|4321221
+"lineitem"|54|15|"l_comment"|"string"|63778|"Dictionary"|"FixedSize2ByteAligned"|4320116
 "lineitem"|55|0|"l_orderkey"|"int"|16388|"Dictionary"|"FixedSize2ByteAligned"|196678
 "lineitem"|55|1|"l_partkey"|"int"|56017|"Dictionary"|"FixedSize2ByteAligned"|355194
 "lineitem"|55|2|"l_suppkey"|"int"|9988|"Dictionary"|"FixedSize2ByteAligned"|171078
@@ -918,7 +918,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|55|12|"l_receiptdate"|"string"|2530|"Dictionary"|"FixedSize2ByteAligned"|232358
 "lineitem"|55|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|55|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|55|15|"l_comment"|"string"|63803|"Dictionary"|"FixedSize2ByteAligned"|4326387
+"lineitem"|55|15|"l_comment"|"string"|63803|"Dictionary"|"FixedSize2ByteAligned"|4325250
 "lineitem"|56|0|"l_orderkey"|"int"|16443|"Dictionary"|"FixedSize2ByteAligned"|196898
 "lineitem"|56|1|"l_partkey"|"int"|55915|"Dictionary"|"FixedSize2ByteAligned"|354786
 "lineitem"|56|2|"l_suppkey"|"int"|9976|"Dictionary"|"FixedSize2ByteAligned"|171030
@@ -934,7 +934,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|56|12|"l_receiptdate"|"string"|2527|"Dictionary"|"FixedSize2ByteAligned"|232238
 "lineitem"|56|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|56|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|56|15|"l_comment"|"string"|63751|"Dictionary"|"FixedSize2ByteAligned"|4321020
+"lineitem"|56|15|"l_comment"|"string"|63751|"Dictionary"|"FixedSize2ByteAligned"|4319975
 "lineitem"|57|0|"l_orderkey"|"int"|16414|"Dictionary"|"FixedSize2ByteAligned"|196782
 "lineitem"|57|1|"l_partkey"|"int"|55879|"Dictionary"|"FixedSize2ByteAligned"|354642
 "lineitem"|57|2|"l_suppkey"|"int"|9988|"Dictionary"|"FixedSize2ByteAligned"|171078
@@ -950,7 +950,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|57|12|"l_receiptdate"|"string"|2528|"Dictionary"|"FixedSize2ByteAligned"|232278
 "lineitem"|57|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|57|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|57|15|"l_comment"|"string"|63713|"Dictionary"|"FixedSize2ByteAligned"|4319326
+"lineitem"|57|15|"l_comment"|"string"|63713|"Dictionary"|"FixedSize2ByteAligned"|4318401
 "lineitem"|58|0|"l_orderkey"|"int"|16427|"Dictionary"|"FixedSize2ByteAligned"|196834
 "lineitem"|58|1|"l_partkey"|"int"|55788|"Dictionary"|"FixedSize2ByteAligned"|354278
 "lineitem"|58|2|"l_suppkey"|"int"|9984|"Dictionary"|"FixedSize2ByteAligned"|171062
@@ -966,7 +966,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|58|12|"l_receiptdate"|"string"|2529|"Dictionary"|"FixedSize2ByteAligned"|232318
 "lineitem"|58|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|58|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|58|15|"l_comment"|"string"|63762|"Dictionary"|"FixedSize2ByteAligned"|4322124
+"lineitem"|58|15|"l_comment"|"string"|63762|"Dictionary"|"FixedSize2ByteAligned"|4321081
 "lineitem"|59|0|"l_orderkey"|"int"|16338|"Dictionary"|"FixedSize2ByteAligned"|196478
 "lineitem"|59|1|"l_partkey"|"int"|55835|"Dictionary"|"FixedSize2ByteAligned"|354466
 "lineitem"|59|2|"l_suppkey"|"int"|9984|"Dictionary"|"FixedSize2ByteAligned"|171062
@@ -982,7 +982,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|59|12|"l_receiptdate"|"string"|2524|"Dictionary"|"FixedSize2ByteAligned"|232118
 "lineitem"|59|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|59|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|59|15|"l_comment"|"string"|63629|"Dictionary"|"FixedSize2ByteAligned"|4308522
+"lineitem"|59|15|"l_comment"|"string"|63629|"Dictionary"|"FixedSize2ByteAligned"|4307689
 "lineitem"|60|0|"l_orderkey"|"int"|16402|"Dictionary"|"FixedSize2ByteAligned"|196734
 "lineitem"|60|1|"l_partkey"|"int"|55804|"Dictionary"|"FixedSize2ByteAligned"|354342
 "lineitem"|60|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -998,7 +998,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|60|12|"l_receiptdate"|"string"|2527|"Dictionary"|"FixedSize2ByteAligned"|232238
 "lineitem"|60|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|60|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|60|15|"l_comment"|"string"|63707|"Dictionary"|"FixedSize2ByteAligned"|4321578
+"lineitem"|60|15|"l_comment"|"string"|63707|"Dictionary"|"FixedSize2ByteAligned"|4320729
 "lineitem"|61|0|"l_orderkey"|"int"|16424|"Dictionary"|"FixedSize2ByteAligned"|196822
 "lineitem"|61|1|"l_partkey"|"int"|55872|"Dictionary"|"FixedSize2ByteAligned"|354614
 "lineitem"|61|2|"l_suppkey"|"int"|9990|"Dictionary"|"FixedSize2ByteAligned"|171086
@@ -1014,7 +1014,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|61|12|"l_receiptdate"|"string"|2527|"Dictionary"|"FixedSize2ByteAligned"|232238
 "lineitem"|61|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|61|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|61|15|"l_comment"|"string"|63746|"Dictionary"|"FixedSize2ByteAligned"|4318981
+"lineitem"|61|15|"l_comment"|"string"|63746|"Dictionary"|"FixedSize2ByteAligned"|4318053
 "lineitem"|62|0|"l_orderkey"|"int"|16347|"Dictionary"|"FixedSize2ByteAligned"|196514
 "lineitem"|62|1|"l_partkey"|"int"|55923|"Dictionary"|"FixedSize2ByteAligned"|354818
 "lineitem"|62|2|"l_suppkey"|"int"|9989|"Dictionary"|"FixedSize2ByteAligned"|171082
@@ -1030,7 +1030,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|62|12|"l_receiptdate"|"string"|2533|"Dictionary"|"FixedSize2ByteAligned"|232478
 "lineitem"|62|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|62|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|62|15|"l_comment"|"string"|63808|"Dictionary"|"FixedSize2ByteAligned"|4327191
+"lineitem"|62|15|"l_comment"|"string"|63808|"Dictionary"|"FixedSize2ByteAligned"|4326140
 "lineitem"|63|0|"l_orderkey"|"int"|16449|"Dictionary"|"FixedSize2ByteAligned"|196922
 "lineitem"|63|1|"l_partkey"|"int"|55843|"Dictionary"|"FixedSize2ByteAligned"|354498
 "lineitem"|63|2|"l_suppkey"|"int"|9987|"Dictionary"|"FixedSize2ByteAligned"|171074
@@ -1046,7 +1046,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|63|12|"l_receiptdate"|"string"|2526|"Dictionary"|"FixedSize2ByteAligned"|232198
 "lineitem"|63|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|63|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|63|15|"l_comment"|"string"|63655|"Dictionary"|"FixedSize2ByteAligned"|4317441
+"lineitem"|63|15|"l_comment"|"string"|63655|"Dictionary"|"FixedSize2ByteAligned"|4316431
 "lineitem"|64|0|"l_orderkey"|"int"|16322|"Dictionary"|"FixedSize2ByteAligned"|196414
 "lineitem"|64|1|"l_partkey"|"int"|55882|"Dictionary"|"FixedSize2ByteAligned"|354654
 "lineitem"|64|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -1062,7 +1062,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|64|12|"l_receiptdate"|"string"|2522|"Dictionary"|"FixedSize2ByteAligned"|232038
 "lineitem"|64|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|64|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|64|15|"l_comment"|"string"|63783|"Dictionary"|"FixedSize2ByteAligned"|4324175
+"lineitem"|64|15|"l_comment"|"string"|63783|"Dictionary"|"FixedSize2ByteAligned"|4323486
 "lineitem"|65|0|"l_orderkey"|"int"|16312|"Dictionary"|"FixedSize2ByteAligned"|196374
 "lineitem"|65|1|"l_partkey"|"int"|55943|"Dictionary"|"FixedSize2ByteAligned"|354898
 "lineitem"|65|2|"l_suppkey"|"int"|9983|"Dictionary"|"FixedSize2ByteAligned"|171058
@@ -1078,7 +1078,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|65|12|"l_receiptdate"|"string"|2530|"Dictionary"|"FixedSize2ByteAligned"|232358
 "lineitem"|65|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|65|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|65|15|"l_comment"|"string"|63758|"Dictionary"|"FixedSize2ByteAligned"|4314770
+"lineitem"|65|15|"l_comment"|"string"|63758|"Dictionary"|"FixedSize2ByteAligned"|4313662
 "lineitem"|66|0|"l_orderkey"|"int"|16379|"Dictionary"|"FixedSize2ByteAligned"|196642
 "lineitem"|66|1|"l_partkey"|"int"|55910|"Dictionary"|"FixedSize2ByteAligned"|354766
 "lineitem"|66|2|"l_suppkey"|"int"|9971|"Dictionary"|"FixedSize2ByteAligned"|171010
@@ -1094,7 +1094,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|66|12|"l_receiptdate"|"string"|2527|"Dictionary"|"FixedSize2ByteAligned"|232238
 "lineitem"|66|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|66|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|66|15|"l_comment"|"string"|63711|"Dictionary"|"FixedSize2ByteAligned"|4318545
+"lineitem"|66|15|"l_comment"|"string"|63711|"Dictionary"|"FixedSize2ByteAligned"|4317369
 "lineitem"|67|0|"l_orderkey"|"int"|16435|"Dictionary"|"FixedSize2ByteAligned"|196866
 "lineitem"|67|1|"l_partkey"|"int"|55884|"Dictionary"|"FixedSize2ByteAligned"|354662
 "lineitem"|67|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -1110,7 +1110,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|67|12|"l_receiptdate"|"string"|2528|"Dictionary"|"FixedSize2ByteAligned"|232278
 "lineitem"|67|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|67|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|67|15|"l_comment"|"string"|63713|"Dictionary"|"FixedSize2ByteAligned"|4317752
+"lineitem"|67|15|"l_comment"|"string"|63713|"Dictionary"|"FixedSize2ByteAligned"|4316572
 "lineitem"|68|0|"l_orderkey"|"int"|16442|"Dictionary"|"FixedSize2ByteAligned"|196894
 "lineitem"|68|1|"l_partkey"|"int"|55988|"Dictionary"|"FixedSize2ByteAligned"|355078
 "lineitem"|68|2|"l_suppkey"|"int"|9987|"Dictionary"|"FixedSize2ByteAligned"|171074
@@ -1126,7 +1126,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|68|12|"l_receiptdate"|"string"|2523|"Dictionary"|"FixedSize2ByteAligned"|232078
 "lineitem"|68|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|68|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|68|15|"l_comment"|"string"|63725|"Dictionary"|"FixedSize2ByteAligned"|4318318
+"lineitem"|68|15|"l_comment"|"string"|63725|"Dictionary"|"FixedSize2ByteAligned"|4317170
 "lineitem"|69|0|"l_orderkey"|"int"|16326|"Dictionary"|"FixedSize2ByteAligned"|196430
 "lineitem"|69|1|"l_partkey"|"int"|55907|"Dictionary"|"FixedSize2ByteAligned"|354754
 "lineitem"|69|2|"l_suppkey"|"int"|9985|"Dictionary"|"FixedSize2ByteAligned"|171066
@@ -1142,7 +1142,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|69|12|"l_receiptdate"|"string"|2530|"Dictionary"|"FixedSize2ByteAligned"|232358
 "lineitem"|69|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|69|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|69|15|"l_comment"|"string"|63725|"Dictionary"|"FixedSize2ByteAligned"|4315472
+"lineitem"|69|15|"l_comment"|"string"|63725|"Dictionary"|"FixedSize2ByteAligned"|4314616
 "lineitem"|70|0|"l_orderkey"|"int"|16361|"Dictionary"|"FixedSize2ByteAligned"|196570
 "lineitem"|70|1|"l_partkey"|"int"|55861|"Dictionary"|"FixedSize2ByteAligned"|354570
 "lineitem"|70|2|"l_suppkey"|"int"|9982|"Dictionary"|"FixedSize2ByteAligned"|171054
@@ -1158,7 +1158,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|70|12|"l_receiptdate"|"string"|2523|"Dictionary"|"FixedSize2ByteAligned"|232078
 "lineitem"|70|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|70|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|70|15|"l_comment"|"string"|63712|"Dictionary"|"FixedSize2ByteAligned"|4311830
+"lineitem"|70|15|"l_comment"|"string"|63712|"Dictionary"|"FixedSize2ByteAligned"|4310829
 "lineitem"|71|0|"l_orderkey"|"int"|16313|"Dictionary"|"FixedSize2ByteAligned"|196378
 "lineitem"|71|1|"l_partkey"|"int"|56031|"Dictionary"|"FixedSize2ByteAligned"|355250
 "lineitem"|71|2|"l_suppkey"|"int"|9992|"Dictionary"|"FixedSize2ByteAligned"|171094
@@ -1174,7 +1174,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|71|12|"l_receiptdate"|"string"|2524|"Dictionary"|"FixedSize2ByteAligned"|232118
 "lineitem"|71|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|71|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|71|15|"l_comment"|"string"|63752|"Dictionary"|"FixedSize2ByteAligned"|4323218
+"lineitem"|71|15|"l_comment"|"string"|63752|"Dictionary"|"FixedSize2ByteAligned"|4322278
 "lineitem"|72|0|"l_orderkey"|"int"|16451|"Dictionary"|"FixedSize2ByteAligned"|196930
 "lineitem"|72|1|"l_partkey"|"int"|55808|"Dictionary"|"FixedSize2ByteAligned"|354358
 "lineitem"|72|2|"l_suppkey"|"int"|9984|"Dictionary"|"FixedSize2ByteAligned"|171062
@@ -1190,7 +1190,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|72|12|"l_receiptdate"|"string"|2529|"Dictionary"|"FixedSize2ByteAligned"|232318
 "lineitem"|72|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|72|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|72|15|"l_comment"|"string"|63684|"Dictionary"|"FixedSize2ByteAligned"|4310761
+"lineitem"|72|15|"l_comment"|"string"|63684|"Dictionary"|"FixedSize2ByteAligned"|4309497
 "lineitem"|73|0|"l_orderkey"|"int"|16394|"Dictionary"|"FixedSize2ByteAligned"|196702
 "lineitem"|73|1|"l_partkey"|"int"|55909|"Dictionary"|"FixedSize2ByteAligned"|354762
 "lineitem"|73|2|"l_suppkey"|"int"|9976|"Dictionary"|"FixedSize2ByteAligned"|171030
@@ -1206,7 +1206,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|73|12|"l_receiptdate"|"string"|2531|"Dictionary"|"FixedSize2ByteAligned"|232398
 "lineitem"|73|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|73|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|73|15|"l_comment"|"string"|63740|"Dictionary"|"FixedSize2ByteAligned"|4326207
+"lineitem"|73|15|"l_comment"|"string"|63740|"Dictionary"|"FixedSize2ByteAligned"|4325345
 "lineitem"|74|0|"l_orderkey"|"int"|16287|"Dictionary"|"FixedSize2ByteAligned"|196274
 "lineitem"|74|1|"l_partkey"|"int"|55964|"Dictionary"|"FixedSize2ByteAligned"|354982
 "lineitem"|74|2|"l_suppkey"|"int"|9989|"Dictionary"|"FixedSize2ByteAligned"|171082
@@ -1222,7 +1222,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|74|12|"l_receiptdate"|"string"|2530|"Dictionary"|"FixedSize2ByteAligned"|232358
 "lineitem"|74|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|74|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|74|15|"l_comment"|"string"|63758|"Dictionary"|"FixedSize2ByteAligned"|4320639
+"lineitem"|74|15|"l_comment"|"string"|63758|"Dictionary"|"FixedSize2ByteAligned"|4319680
 "lineitem"|75|0|"l_orderkey"|"int"|16380|"Dictionary"|"FixedSize2ByteAligned"|196646
 "lineitem"|75|1|"l_partkey"|"int"|55767|"Dictionary"|"FixedSize2ByteAligned"|354194
 "lineitem"|75|2|"l_suppkey"|"int"|9988|"Dictionary"|"FixedSize2ByteAligned"|171078
@@ -1238,7 +1238,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|75|12|"l_receiptdate"|"string"|2526|"Dictionary"|"FixedSize2ByteAligned"|232198
 "lineitem"|75|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|75|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|75|15|"l_comment"|"string"|63763|"Dictionary"|"FixedSize2ByteAligned"|4322346
+"lineitem"|75|15|"l_comment"|"string"|63763|"Dictionary"|"FixedSize2ByteAligned"|4321261
 "lineitem"|76|0|"l_orderkey"|"int"|16440|"Dictionary"|"FixedSize2ByteAligned"|196886
 "lineitem"|76|1|"l_partkey"|"int"|55981|"Dictionary"|"FixedSize2ByteAligned"|355050
 "lineitem"|76|2|"l_suppkey"|"int"|9992|"Dictionary"|"FixedSize2ByteAligned"|171094
@@ -1254,7 +1254,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|76|12|"l_receiptdate"|"string"|2526|"Dictionary"|"FixedSize2ByteAligned"|232198
 "lineitem"|76|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|76|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|76|15|"l_comment"|"string"|63726|"Dictionary"|"FixedSize2ByteAligned"|4316046
+"lineitem"|76|15|"l_comment"|"string"|63726|"Dictionary"|"FixedSize2ByteAligned"|4315136
 "lineitem"|77|0|"l_orderkey"|"int"|16388|"Dictionary"|"FixedSize2ByteAligned"|196678
 "lineitem"|77|1|"l_partkey"|"int"|55823|"Dictionary"|"FixedSize2ByteAligned"|354418
 "lineitem"|77|2|"l_suppkey"|"int"|9988|"Dictionary"|"FixedSize2ByteAligned"|171078
@@ -1270,7 +1270,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|77|12|"l_receiptdate"|"string"|2526|"Dictionary"|"FixedSize2ByteAligned"|232198
 "lineitem"|77|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|77|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|77|15|"l_comment"|"string"|63726|"Dictionary"|"FixedSize2ByteAligned"|4325348
+"lineitem"|77|15|"l_comment"|"string"|63726|"Dictionary"|"FixedSize2ByteAligned"|4324583
 "lineitem"|78|0|"l_orderkey"|"int"|16456|"Dictionary"|"FixedSize2ByteAligned"|196950
 "lineitem"|78|1|"l_partkey"|"int"|55763|"Dictionary"|"FixedSize2ByteAligned"|354178
 "lineitem"|78|2|"l_suppkey"|"int"|9981|"Dictionary"|"FixedSize2ByteAligned"|171050
@@ -1286,7 +1286,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|78|12|"l_receiptdate"|"string"|2527|"Dictionary"|"FixedSize2ByteAligned"|232238
 "lineitem"|78|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|78|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|78|15|"l_comment"|"string"|63853|"Dictionary"|"FixedSize2ByteAligned"|4333761
+"lineitem"|78|15|"l_comment"|"string"|63853|"Dictionary"|"FixedSize2ByteAligned"|4332666
 "lineitem"|79|0|"l_orderkey"|"int"|16412|"Dictionary"|"FixedSize2ByteAligned"|196774
 "lineitem"|79|1|"l_partkey"|"int"|55913|"Dictionary"|"FixedSize2ByteAligned"|354778
 "lineitem"|79|2|"l_suppkey"|"int"|9985|"Dictionary"|"FixedSize2ByteAligned"|171066
@@ -1302,7 +1302,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|79|12|"l_receiptdate"|"string"|2521|"Dictionary"|"FixedSize2ByteAligned"|231998
 "lineitem"|79|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|79|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|79|15|"l_comment"|"string"|63685|"Dictionary"|"FixedSize2ByteAligned"|4316883
+"lineitem"|79|15|"l_comment"|"string"|63685|"Dictionary"|"FixedSize2ByteAligned"|4315895
 "lineitem"|80|0|"l_orderkey"|"int"|16377|"Dictionary"|"FixedSize2ByteAligned"|196634
 "lineitem"|80|1|"l_partkey"|"int"|55850|"Dictionary"|"FixedSize2ByteAligned"|354526
 "lineitem"|80|2|"l_suppkey"|"int"|9989|"Dictionary"|"FixedSize2ByteAligned"|171082
@@ -1318,7 +1318,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|80|12|"l_receiptdate"|"string"|2525|"Dictionary"|"FixedSize2ByteAligned"|232158
 "lineitem"|80|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|80|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|80|15|"l_comment"|"string"|63731|"Dictionary"|"FixedSize2ByteAligned"|4318780
+"lineitem"|80|15|"l_comment"|"string"|63731|"Dictionary"|"FixedSize2ByteAligned"|4317909
 "lineitem"|81|0|"l_orderkey"|"int"|16411|"Dictionary"|"FixedSize2ByteAligned"|196770
 "lineitem"|81|1|"l_partkey"|"int"|55862|"Dictionary"|"FixedSize2ByteAligned"|354574
 "lineitem"|81|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -1334,7 +1334,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|81|12|"l_receiptdate"|"string"|2531|"Dictionary"|"FixedSize2ByteAligned"|232398
 "lineitem"|81|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|81|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|81|15|"l_comment"|"string"|63750|"Dictionary"|"FixedSize2ByteAligned"|4325750
+"lineitem"|81|15|"l_comment"|"string"|63750|"Dictionary"|"FixedSize2ByteAligned"|4324812
 "lineitem"|82|0|"l_orderkey"|"int"|16331|"Dictionary"|"FixedSize2ByteAligned"|196450
 "lineitem"|82|1|"l_partkey"|"int"|55937|"Dictionary"|"FixedSize2ByteAligned"|354874
 "lineitem"|82|2|"l_suppkey"|"int"|9984|"Dictionary"|"FixedSize2ByteAligned"|171062
@@ -1350,7 +1350,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|82|12|"l_receiptdate"|"string"|2529|"Dictionary"|"FixedSize2ByteAligned"|232318
 "lineitem"|82|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|82|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|82|15|"l_comment"|"string"|63715|"Dictionary"|"FixedSize2ByteAligned"|4315958
+"lineitem"|82|15|"l_comment"|"string"|63715|"Dictionary"|"FixedSize2ByteAligned"|4314858
 "lineitem"|83|0|"l_orderkey"|"int"|16472|"Dictionary"|"FixedSize2ByteAligned"|197014
 "lineitem"|83|1|"l_partkey"|"int"|55901|"Dictionary"|"FixedSize2ByteAligned"|354730
 "lineitem"|83|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -1366,7 +1366,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|83|12|"l_receiptdate"|"string"|2529|"Dictionary"|"FixedSize2ByteAligned"|232318
 "lineitem"|83|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|83|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|83|15|"l_comment"|"string"|63766|"Dictionary"|"FixedSize2ByteAligned"|4319619
+"lineitem"|83|15|"l_comment"|"string"|63766|"Dictionary"|"FixedSize2ByteAligned"|4318666
 "lineitem"|84|0|"l_orderkey"|"int"|16369|"Dictionary"|"FixedSize2ByteAligned"|196602
 "lineitem"|84|1|"l_partkey"|"int"|55935|"Dictionary"|"FixedSize2ByteAligned"|354866
 "lineitem"|84|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -1382,7 +1382,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|84|12|"l_receiptdate"|"string"|2528|"Dictionary"|"FixedSize2ByteAligned"|232278
 "lineitem"|84|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|84|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|84|15|"l_comment"|"string"|63671|"Dictionary"|"FixedSize2ByteAligned"|4314620
+"lineitem"|84|15|"l_comment"|"string"|63671|"Dictionary"|"FixedSize2ByteAligned"|4313423
 "lineitem"|85|0|"l_orderkey"|"int"|16455|"Dictionary"|"FixedSize2ByteAligned"|196946
 "lineitem"|85|1|"l_partkey"|"int"|55805|"Dictionary"|"FixedSize2ByteAligned"|354346
 "lineitem"|85|2|"l_suppkey"|"int"|9985|"Dictionary"|"FixedSize2ByteAligned"|171066
@@ -1398,7 +1398,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|85|12|"l_receiptdate"|"string"|2523|"Dictionary"|"FixedSize2ByteAligned"|232078
 "lineitem"|85|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|85|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|85|15|"l_comment"|"string"|63728|"Dictionary"|"FixedSize2ByteAligned"|4323933
+"lineitem"|85|15|"l_comment"|"string"|63728|"Dictionary"|"FixedSize2ByteAligned"|4322947
 "lineitem"|86|0|"l_orderkey"|"int"|16353|"Dictionary"|"FixedSize2ByteAligned"|196538
 "lineitem"|86|1|"l_partkey"|"int"|55867|"Dictionary"|"FixedSize2ByteAligned"|354594
 "lineitem"|86|2|"l_suppkey"|"int"|9983|"Dictionary"|"FixedSize2ByteAligned"|171058
@@ -1414,7 +1414,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|86|12|"l_receiptdate"|"string"|2535|"Dictionary"|"FixedSize2ByteAligned"|232558
 "lineitem"|86|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|86|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|86|15|"l_comment"|"string"|63803|"Dictionary"|"FixedSize2ByteAligned"|4327598
+"lineitem"|86|15|"l_comment"|"string"|63803|"Dictionary"|"FixedSize2ByteAligned"|4326674
 "lineitem"|87|0|"l_orderkey"|"int"|16334|"Dictionary"|"FixedSize2ByteAligned"|196462
 "lineitem"|87|1|"l_partkey"|"int"|55889|"Dictionary"|"FixedSize2ByteAligned"|354682
 "lineitem"|87|2|"l_suppkey"|"int"|9987|"Dictionary"|"FixedSize2ByteAligned"|171074
@@ -1430,7 +1430,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|87|12|"l_receiptdate"|"string"|2525|"Dictionary"|"FixedSize2ByteAligned"|232158
 "lineitem"|87|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|87|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|87|15|"l_comment"|"string"|63690|"Dictionary"|"FixedSize2ByteAligned"|4318302
+"lineitem"|87|15|"l_comment"|"string"|63690|"Dictionary"|"FixedSize2ByteAligned"|4317346
 "lineitem"|88|0|"l_orderkey"|"int"|16333|"Dictionary"|"FixedSize2ByteAligned"|196458
 "lineitem"|88|1|"l_partkey"|"int"|55842|"Dictionary"|"FixedSize2ByteAligned"|354494
 "lineitem"|88|2|"l_suppkey"|"int"|9986|"Dictionary"|"FixedSize2ByteAligned"|171070
@@ -1446,7 +1446,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|88|12|"l_receiptdate"|"string"|2520|"Dictionary"|"FixedSize2ByteAligned"|231958
 "lineitem"|88|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|88|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|88|15|"l_comment"|"string"|63740|"Dictionary"|"FixedSize2ByteAligned"|4317764
+"lineitem"|88|15|"l_comment"|"string"|63740|"Dictionary"|"FixedSize2ByteAligned"|4316547
 "lineitem"|89|0|"l_orderkey"|"int"|16223|"Dictionary"|"FixedSize2ByteAligned"|196018
 "lineitem"|89|1|"l_partkey"|"int"|55876|"Dictionary"|"FixedSize2ByteAligned"|354630
 "lineitem"|89|2|"l_suppkey"|"int"|9985|"Dictionary"|"FixedSize2ByteAligned"|171066
@@ -1462,7 +1462,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|89|12|"l_receiptdate"|"string"|2526|"Dictionary"|"FixedSize2ByteAligned"|232198
 "lineitem"|89|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|89|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|89|15|"l_comment"|"string"|63820|"Dictionary"|"FixedSize2ByteAligned"|4331866
+"lineitem"|89|15|"l_comment"|"string"|63820|"Dictionary"|"FixedSize2ByteAligned"|4330979
 "lineitem"|90|0|"l_orderkey"|"int"|16397|"Dictionary"|"FixedSize2ByteAligned"|196714
 "lineitem"|90|1|"l_partkey"|"int"|56009|"Dictionary"|"FixedSize2ByteAligned"|355162
 "lineitem"|90|2|"l_suppkey"|"int"|9989|"Dictionary"|"FixedSize2ByteAligned"|171082
@@ -1478,7 +1478,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|90|12|"l_receiptdate"|"string"|2526|"Dictionary"|"FixedSize2ByteAligned"|232198
 "lineitem"|90|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|65818
 "lineitem"|90|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|65903
-"lineitem"|90|15|"l_comment"|"string"|63703|"Dictionary"|"FixedSize2ByteAligned"|4311541
+"lineitem"|90|15|"l_comment"|"string"|63703|"Dictionary"|"FixedSize2ByteAligned"|4310749
 "lineitem"|91|0|"l_orderkey"|"int"|9385|"Dictionary"|"FixedSize2ByteAligned"|112656
 "lineitem"|91|1|"l_partkey"|"int"|34217|"Dictionary"|"FixedSize2ByteAligned"|211984
 "lineitem"|91|2|"l_suppkey"|"int"|9775|"Dictionary"|"FixedSize2ByteAligned"|114216
@@ -1494,7 +1494,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "lineitem"|91|12|"l_receiptdate"|"string"|2519|"Dictionary"|"FixedSize2ByteAligned"|175908
 "lineitem"|91|13|"l_shipinstruct"|"string"|4|"Dictionary"|"FixedSize1ByteAligned"|37813
 "lineitem"|91|14|"l_shipmode"|"string"|7|"Dictionary"|"FixedSize1ByteAligned"|37898
-"lineitem"|91|15|"l_comment"|"string"|36845|"Dictionary"|"FixedSize2ByteAligned"|2489360
+"lineitem"|91|15|"l_comment"|"string"|36845|"Dictionary"|"FixedSize2ByteAligned"|2489016
 "nation"|0|0|"n_nationkey"|"int"|25|"Dictionary"|"FixedSize1ByteAligned"|181
 "nation"|0|1|"n_name"|"string"|25|"Dictionary"|"FixedSize1ByteAligned"|1113
 "nation"|0|2|"n_regionkey"|"int"|5|"Dictionary"|"FixedSize1ByteAligned"|101
@@ -1714,7 +1714,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "part"|0|5|"p_size"|"int"|50|"Dictionary"|"FixedSize1ByteAligned"|65791
 "part"|0|6|"p_container"|"string"|40|"Dictionary"|"FixedSize1ByteAligned"|67223
 "part"|0|7|"p_retailsize"|"float"|7452|"Dictionary"|"FixedSize2ByteAligned"|160934
-"part"|0|8|"p_comment"|"string"|50824|"Dictionary"|"FixedSize2ByteAligned"|2665904
+"part"|0|8|"p_comment"|"string"|50824|"Dictionary"|"FixedSize2ByteAligned"|2658565
 "part"|1|0|"p_partkey"|"int"|65535|"Dictionary"|"FixedSize2ByteAligned"|393266
 "part"|1|1|"p_name"|"string"|65535|"Dictionary"|"FixedSize2ByteAligned"|4965091
 "part"|1|2|"p_mfgr"|"string"|5|"Dictionary"|"FixedSize1ByteAligned"|65823
@@ -1723,7 +1723,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "part"|1|5|"p_size"|"int"|50|"Dictionary"|"FixedSize1ByteAligned"|65791
 "part"|1|6|"p_container"|"string"|40|"Dictionary"|"FixedSize1ByteAligned"|67223
 "part"|1|7|"p_retailsize"|"float"|7453|"Dictionary"|"FixedSize2ByteAligned"|160938
-"part"|1|8|"p_comment"|"string"|50684|"Dictionary"|"FixedSize2ByteAligned"|2656392
+"part"|1|8|"p_comment"|"string"|50684|"Dictionary"|"FixedSize2ByteAligned"|2648990
 "part"|2|0|"p_partkey"|"int"|65535|"Dictionary"|"FixedSize2ByteAligned"|393266
 "part"|2|1|"p_name"|"string"|65534|"Dictionary"|"FixedSize2ByteAligned"|4964113
 "part"|2|2|"p_mfgr"|"string"|5|"Dictionary"|"FixedSize1ByteAligned"|65823
@@ -1732,7 +1732,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "part"|2|5|"p_size"|"int"|50|"Dictionary"|"FixedSize1ByteAligned"|65791
 "part"|2|6|"p_container"|"string"|40|"Dictionary"|"FixedSize1ByteAligned"|67223
 "part"|2|7|"p_retailsize"|"float"|7452|"Dictionary"|"FixedSize2ByteAligned"|160934
-"part"|2|8|"p_comment"|"string"|51019|"Dictionary"|"FixedSize2ByteAligned"|2674540
+"part"|2|8|"p_comment"|"string"|51019|"Dictionary"|"FixedSize2ByteAligned"|2667693
 "part"|3|0|"p_partkey"|"int"|3395|"Dictionary"|"FixedSize2ByteAligned"|20426
 "part"|3|1|"p_name"|"string"|3395|"Dictionary"|"FixedSize2ByteAligned"|257344
 "part"|3|2|"p_mfgr"|"string"|5|"Dictionary"|"FixedSize1ByteAligned"|3683
@@ -1741,7 +1741,7 @@ table_name|chunk_id|column_id|column_name|column_data_type|distinct_value_count|
 "part"|3|5|"p_size"|"int"|50|"Dictionary"|"FixedSize1ByteAligned"|3651
 "part"|3|6|"p_container"|"string"|40|"Dictionary"|"FixedSize1ByteAligned"|5083
 "part"|3|7|"p_retailsize"|"float"|1239|"Dictionary"|"FixedSize2ByteAligned"|11802
-"part"|3|8|"p_comment"|"string"|3278|"Dictionary"|"FixedSize2ByteAligned"|163828
+"part"|3|8|"p_comment"|"string"|3278|"Dictionary"|"FixedSize2ByteAligned"|163810
 "partsupp"|0|0|"ps_partkey"|"int"|16384|"Dictionary"|"FixedSize2ByteAligned"|196662
 "partsupp"|0|1|"ps_suppkey"|"int"|10000|"Dictionary"|"FixedSize2ByteAligned"|171126
 "partsupp"|0|2|"ps_availqty"|"int"|9976|"Dictionary"|"FixedSize2ByteAligned"|171030

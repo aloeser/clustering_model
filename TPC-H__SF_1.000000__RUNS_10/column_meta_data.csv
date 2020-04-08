@@ -60,4 +60,3 @@ table_name|column_name|data_type|nullable|distinct_values
 "supplier"|"s_phone"|"string"|0|10000
 "supplier"|"s_acctbal"|"float"|0|9955
 "supplier"|"s_comment"|"string"|0|10000
-
